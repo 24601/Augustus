@@ -1,0 +1,34 @@
+{
+  "conflicting_keys": 0,
+  "deduplicated_rows": 5159,
+  "excluded_conflict_rows": 0,
+  "groups": 5027,
+  "max_group_size": 12,
+  "normalized_unique": 5159,
+  "parts": {
+    "confirm": {
+      "groups": 1006,
+      "rows": 1025,
+      "sha256": "b1c8a7fb3e300e92949e277547e0f2d0863236af570366f2a594a6105fa525b8"
+    },
+    "fit": {
+      "groups": 3016,
+      "rows": 3105,
+      "sha256": "a3a6f60b1c862b8a995fef50a3611cc1c826fd1e73d55d8c0f1b8eccf975f5a8"
+    },
+    "search": {
+      "groups": 1005,
+      "rows": 1029,
+      "sha256": "963b195b7c78e6262e9a330a6a558cd6749d15ce19e736ae83198456c58f222c"
+    }
+  },
+  "raw_counts": {
+    "ham": 4827,
+    "spam": 747
+  },
+  "raw_rows": 5574,
+  "raw_sha256": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+  "readme_sha256": "8753cd2d3cab68f80c8257851b8c2037778c267f55accb6fd1b5a2e32d36a84e",
+  "split_manifest_sha256": "1b4323e7cc2b38b47b3983fc396d502760de37295d4a2c02cb960f8d7d8cf2e4",
+  "zip_sha256": "1587ea43e58e82b14ff1f5425c88e17f8496bfcdb67a583dbff9eefaf9963ce3"
+}

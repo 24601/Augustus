@@ -1,0 +1,22 @@
+{
+  "version": "clinc-router-v1",
+  "source_commit": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+  "skill_commit": "5b7610b767c9373cf2d0d25983f0e913f736caae",
+  "taxonomy": "All 150 non-oos labels from the official training split; frozen to taxonomy.json before fitting. No subset selection.",
+  "action": "Recommend enqueueing in support.<intent>; manual_review goes to support.manual_review. No business transaction is executed.",
+  "input": "One English single-intent utterance, 1..2000 characters, JSON object with text only. Additional fields (including label/options overrides) are invalid.",
+  "fallback": "Manual triage operator handles invalid, unknown-feature, ambiguous, predicted-oos, low-margin and unavailable-artifact requests.",
+  "incumbent": "Always manual_review, loss 0.3",
+  "loss": {"correct_route": 0, "misroute_including_oos": 1, "manual_review": 0.3},
+  "split": "Official train/val/test. Earlier role owns normalized duplicates; later duplicates removed without score access. Near duplicates are diagnostic only. No author/seed IDs available.",
+  "development_weighting": "Fix OOS prior at 1000/5500 from the documented full test design; remaining mass equally spread across 150 intents. No observed test outcomes used.",
+  "candidates": ["word-svc", "char-svc", "word-char-svc"],
+  "stock": "No pretrained encoder. Training-only TF-IDF word(1,2)/char_wb(3,5), max 30000 features each, LinearSVC C=1 random_state=17 max_iter=3000 dual=auto; OOS is a learned reject class.",
+  "policy_grid": {"top_margin_min": [-0.5, 0, 0.25, 0.5, 0.75, 1], "top_runnerup_gap_min": [0, 0.25, 0.5, 1]},
+  "policy": "Route only known non-OOS winner, nonempty features, unique maximum, top margin >= cutoff and winner gap >= cutoff. Scores are uncalibrated SVM margins, not probabilities.",
+  "selection": "Lowest weighted dev loss among policies with OOS misroute <=0.20; ties: greater gap threshold then greater top threshold then lexical candidate ID. If none improves incumbent, retain incumbent. Fixed three-fit sweep then stop.",
+  "confirmation": "One frozen finalist, no refit. Official test once, paired against always-review. Require mean cost improvement >=0.03, one-sided Hoeffding upper bound on candidate-minus-incumbent < -0.03 (alpha .05, range 1), OOS misroute <=0.20, each intent correct-route recall >=0.30, replay actions identical and scores within 1e-10. Bounds conditional on independent rows; unknown seed families limit inference.",
+  "runtime_gates": {"warm_single_p95_ms": 100, "cold_start_seconds": 10, "peak_rss_mib": 1024},
+  "budget": "CPU only, one numerical thread; process RLIMIT_CPU=1200 seconds for all fit/search combined; three fits maximum. No paid calls/rentals. Preparation and frozen confirmation timed separately.",
+  "authority": "Local proxy acceptance only, no production activation. If any gate fails retain the always-review incumbent. No arbitrary new labels, multilingual or multi-intent-per-utterance guarantee."
+}

@@ -1,0 +1,4 @@
+.venv/
+corpus.zip
+work/
+__pycache__/

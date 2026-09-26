@@ -1,0 +1,7 @@
+{
+  "artifact_sha256": "93a44838427cf156a12eb46fb16ae43b8f5a6e33f8fccdf425d484f843696649",
+  "contract_sha256": "2396bba2147e6d81ea7d7879768123b3e4aeca99aa39b58abb03784fdf08a0d2",
+  "selection": "minimum development group loss; no refit",
+  "split_manifest_sha256": "1b4323e7cc2b38b47b3983fc396d502760de37295d4a2c02cb960f8d7d8cf2e4",
+  "trial": "word8"
+}

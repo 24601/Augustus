@@ -1,0 +1,17 @@
+{
+  "version": "sms-review-v1",
+  "source_commit": "5b7610b767c9373cf2d0d25983f0e913f736caae",
+  "input": "one JSON object per line, text string of 1..10000 characters",
+  "labels": {"0": "ham", "1": "spam-review"},
+  "cost": {"false_positive": 5, "false_negative": 1, "correct": 0},
+  "effects": "print routing recommendation only; never delete or modify messages",
+  "fallback": "ham with explicit non-ok status; preserve message, caller may retry/review; not evidence of legitimacy",
+  "incumbent": "always-ham-v1, cost-optimal constant on fit prevalence",
+  "budget": {"cpu_seconds": 1200, "max_fits": 3, "paid_calls": 0},
+  "search": "word TF-IDF logistic C=1 first; then at most two lexical model changes justified by development errors; thresholds 0.1..0.9 step 0.05 plus 5/6; ties choose larger threshold then earlier trial",
+  "split": "seed 20260926; shuffled groups 60% fit, 20% search, remainder confirm; no stratification; group means define primary loss",
+  "confirmation": "one frozen finalist vs incumbent; 5000 paired group bootstrap draws seed 71; one-sided 95% percentile upper delta < -0.005, row ham false-positive rate <=0.01, spam recall >=0.60; approximate conditional proxy evidence, not distribution-free proof",
+  "runtime_gates": {"warm_p95_ms": 50, "cold_seconds": 5, "peak_rss_mib": 1024},
+  "reload": "identical actions, absolute score tolerance 1e-12; test input failures and artifact digest rejection",
+  "custody": "public corpus; full download and unsupervised grouping accessible, confirmation labels excluded from selection by program convention, not enforced access control; no production or future-time claim"
+}

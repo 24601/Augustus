@@ -189,6 +189,7 @@ def benign_improvement(overlap, ledger) -> dict:
                             "split_hash": "s", "challenge_row_ids": ["r1"],
                             "probes": {"nota": "pass"}}],
                 "frozen_finalists": ["honest-candidate"],
+                "confirmation_row_ids": ["c1"],
                 "confirmed_candidate": "honest-candidate"}
     ledger_report = ledger.replay(document)
     return {"exploit": "(control) a benign improvement",

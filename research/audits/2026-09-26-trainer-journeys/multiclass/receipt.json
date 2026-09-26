@@ -1,0 +1,1916 @@
+{
+  "audit": {
+    "label_counts": {
+      "confirm": {
+        "accept_reservations": 30,
+        "account_blocked": 30,
+        "alarm": 30,
+        "application_status": 30,
+        "apr": 30,
+        "are_you_a_bot": 30,
+        "balance": 30,
+        "bill_balance": 30,
+        "bill_due": 30,
+        "book_flight": 30,
+        "book_hotel": 30,
+        "calculator": 30,
+        "calendar": 30,
+        "calendar_update": 30,
+        "calories": 30,
+        "cancel": 30,
+        "cancel_reservation": 30,
+        "car_rental": 30,
+        "card_declined": 30,
+        "carry_on": 30,
+        "change_accent": 30,
+        "change_ai_name": 30,
+        "change_language": 30,
+        "change_speed": 30,
+        "change_user_name": 30,
+        "change_volume": 30,
+        "confirm_reservation": 30,
+        "cook_time": 30,
+        "credit_limit": 30,
+        "credit_limit_change": 30,
+        "credit_score": 30,
+        "current_location": 30,
+        "damaged_card": 30,
+        "date": 30,
+        "definition": 30,
+        "direct_deposit": 30,
+        "directions": 30,
+        "distance": 30,
+        "do_you_have_pets": 30,
+        "exchange_rate": 30,
+        "expiration_date": 30,
+        "find_phone": 30,
+        "flight_status": 30,
+        "flip_coin": 29,
+        "food_last": 30,
+        "freeze_account": 29,
+        "fun_fact": 30,
+        "gas": 30,
+        "gas_type": 30,
+        "goodbye": 26,
+        "greeting": 25,
+        "how_busy": 30,
+        "how_old_are_you": 30,
+        "improve_credit_score": 30,
+        "income": 30,
+        "ingredient_substitution": 30,
+        "ingredients_list": 30,
+        "insurance": 30,
+        "insurance_change": 30,
+        "interest_rate": 30,
+        "international_fees": 30,
+        "international_visa": 30,
+        "jump_start": 30,
+        "last_maintenance": 30,
+        "lost_luggage": 30,
+        "make_call": 30,
+        "maybe": 30,
+        "meal_suggestion": 30,
+        "meaning_of_life": 30,
+        "measurement_conversion": 30,
+        "meeting_schedule": 30,
+        "min_payment": 30,
+        "mpg": 30,
+        "new_card": 30,
+        "next_holiday": 30,
+        "next_song": 29,
+        "no": 27,
+        "nutrition_info": 30,
+        "oil_change_how": 30,
+        "oil_change_when": 30,
+        "oos": 1000,
+        "order": 30,
+        "order_checks": 30,
+        "order_status": 30,
+        "pay_bill": 30,
+        "payday": 30,
+        "pin_change": 30,
+        "play_music": 30,
+        "plug_type": 30,
+        "pto_balance": 30,
+        "pto_request": 30,
+        "pto_request_status": 30,
+        "pto_used": 30,
+        "recipe": 30,
+        "redeem_rewards": 30,
+        "reminder": 30,
+        "reminder_update": 30,
+        "repeat": 29,
+        "replacement_card_duration": 30,
+        "report_fraud": 30,
+        "report_lost_card": 30,
+        "reset_settings": 30,
+        "restaurant_reservation": 30,
+        "restaurant_reviews": 30,
+        "restaurant_suggestion": 30,
+        "rewards_balance": 30,
+        "roll_dice": 30,
+        "rollover_401k": 30,
+        "routing": 30,
+        "schedule_maintenance": 30,
+        "schedule_meeting": 30,
+        "share_location": 30,
+        "shopping_list": 30,
+        "shopping_list_update": 30,
+        "smart_home": 30,
+        "spelling": 30,
+        "spending_history": 30,
+        "sync_device": 30,
+        "taxes": 30,
+        "tell_joke": 30,
+        "text": 30,
+        "thank_you": 28,
+        "time": 30,
+        "timer": 30,
+        "timezone": 30,
+        "tire_change": 30,
+        "tire_pressure": 30,
+        "todo_list": 29,
+        "todo_list_update": 30,
+        "traffic": 30,
+        "transactions": 30,
+        "transfer": 30,
+        "translate": 30,
+        "travel_alert": 30,
+        "travel_notification": 30,
+        "travel_suggestion": 30,
+        "uber": 30,
+        "update_playlist": 30,
+        "user_name": 29,
+        "vaccines": 30,
+        "w2": 30,
+        "weather": 30,
+        "what_are_your_hobbies": 30,
+        "what_can_i_ask_you": 30,
+        "what_is_your_name": 30,
+        "what_song": 30,
+        "where_are_you_from": 29,
+        "whisper_mode": 30,
+        "who_do_you_work_for": 30,
+        "who_made_you": 30,
+        "yes": 28
+      },
+      "dev": {
+        "accept_reservations": 20,
+        "account_blocked": 20,
+        "alarm": 20,
+        "application_status": 20,
+        "apr": 20,
+        "are_you_a_bot": 20,
+        "balance": 20,
+        "bill_balance": 20,
+        "bill_due": 20,
+        "book_flight": 20,
+        "book_hotel": 20,
+        "calculator": 20,
+        "calendar": 20,
+        "calendar_update": 20,
+        "calories": 20,
+        "cancel": 20,
+        "cancel_reservation": 20,
+        "car_rental": 20,
+        "card_declined": 20,
+        "carry_on": 20,
+        "change_accent": 20,
+        "change_ai_name": 20,
+        "change_language": 20,
+        "change_speed": 20,
+        "change_user_name": 20,
+        "change_volume": 19,
+        "confirm_reservation": 20,
+        "cook_time": 20,
+        "credit_limit": 20,
+        "credit_limit_change": 20,
+        "credit_score": 20,
+        "current_location": 20,
+        "damaged_card": 20,
+        "date": 20,
+        "definition": 20,
+        "direct_deposit": 20,
+        "directions": 20,
+        "distance": 20,
+        "do_you_have_pets": 20,
+        "exchange_rate": 20,
+        "expiration_date": 20,
+        "find_phone": 20,
+        "flight_status": 20,
+        "flip_coin": 20,
+        "food_last": 20,
+        "freeze_account": 20,
+        "fun_fact": 20,
+        "gas": 20,
+        "gas_type": 20,
+        "goodbye": 16,
+        "greeting": 16,
+        "how_busy": 20,
+        "how_old_are_you": 19,
+        "improve_credit_score": 20,
+        "income": 20,
+        "ingredient_substitution": 20,
+        "ingredients_list": 20,
+        "insurance": 20,
+        "insurance_change": 20,
+        "interest_rate": 20,
+        "international_fees": 20,
+        "international_visa": 20,
+        "jump_start": 20,
+        "last_maintenance": 20,
+        "lost_luggage": 20,
+        "make_call": 20,
+        "maybe": 20,
+        "meal_suggestion": 20,
+        "meaning_of_life": 20,
+        "measurement_conversion": 20,
+        "meeting_schedule": 20,
+        "min_payment": 20,
+        "mpg": 20,
+        "new_card": 20,
+        "next_holiday": 20,
+        "next_song": 20,
+        "no": 19,
+        "nutrition_info": 20,
+        "oil_change_how": 20,
+        "oil_change_when": 20,
+        "oos": 100,
+        "order": 20,
+        "order_checks": 20,
+        "order_status": 20,
+        "pay_bill": 20,
+        "payday": 20,
+        "pin_change": 20,
+        "play_music": 20,
+        "plug_type": 20,
+        "pto_balance": 20,
+        "pto_request": 20,
+        "pto_request_status": 20,
+        "pto_used": 20,
+        "recipe": 20,
+        "redeem_rewards": 20,
+        "reminder": 19,
+        "reminder_update": 20,
+        "repeat": 20,
+        "replacement_card_duration": 20,
+        "report_fraud": 20,
+        "report_lost_card": 19,
+        "reset_settings": 20,
+        "restaurant_reservation": 20,
+        "restaurant_reviews": 20,
+        "restaurant_suggestion": 20,
+        "rewards_balance": 20,
+        "roll_dice": 20,
+        "rollover_401k": 20,
+        "routing": 20,
+        "schedule_maintenance": 20,
+        "schedule_meeting": 20,
+        "share_location": 20,
+        "shopping_list": 20,
+        "shopping_list_update": 20,
+        "smart_home": 20,
+        "spelling": 20,
+        "spending_history": 20,
+        "sync_device": 20,
+        "taxes": 20,
+        "tell_joke": 20,
+        "text": 20,
+        "thank_you": 18,
+        "time": 20,
+        "timer": 20,
+        "timezone": 20,
+        "tire_change": 20,
+        "tire_pressure": 20,
+        "todo_list": 20,
+        "todo_list_update": 20,
+        "traffic": 20,
+        "transactions": 20,
+        "transfer": 20,
+        "translate": 20,
+        "travel_alert": 20,
+        "travel_notification": 20,
+        "travel_suggestion": 20,
+        "uber": 20,
+        "update_playlist": 20,
+        "user_name": 20,
+        "vaccines": 20,
+        "w2": 20,
+        "weather": 20,
+        "what_are_your_hobbies": 20,
+        "what_can_i_ask_you": 20,
+        "what_is_your_name": 20,
+        "what_song": 19,
+        "where_are_you_from": 20,
+        "whisper_mode": 20,
+        "who_do_you_work_for": 20,
+        "who_made_you": 20,
+        "yes": 20
+      },
+      "fit": {
+        "accept_reservations": 100,
+        "account_blocked": 100,
+        "alarm": 100,
+        "application_status": 100,
+        "apr": 100,
+        "are_you_a_bot": 100,
+        "balance": 100,
+        "bill_balance": 100,
+        "bill_due": 100,
+        "book_flight": 100,
+        "book_hotel": 100,
+        "calculator": 99,
+        "calendar": 100,
+        "calendar_update": 100,
+        "calories": 100,
+        "cancel": 99,
+        "cancel_reservation": 100,
+        "car_rental": 100,
+        "card_declined": 100,
+        "carry_on": 100,
+        "change_accent": 100,
+        "change_ai_name": 100,
+        "change_language": 100,
+        "change_speed": 100,
+        "change_user_name": 100,
+        "change_volume": 100,
+        "confirm_reservation": 100,
+        "cook_time": 100,
+        "credit_limit": 100,
+        "credit_limit_change": 100,
+        "credit_score": 100,
+        "current_location": 100,
+        "damaged_card": 100,
+        "date": 100,
+        "definition": 100,
+        "direct_deposit": 100,
+        "directions": 100,
+        "distance": 100,
+        "do_you_have_pets": 100,
+        "exchange_rate": 100,
+        "expiration_date": 100,
+        "find_phone": 100,
+        "flight_status": 100,
+        "flip_coin": 100,
+        "food_last": 100,
+        "freeze_account": 100,
+        "fun_fact": 100,
+        "gas": 100,
+        "gas_type": 100,
+        "goodbye": 96,
+        "greeting": 100,
+        "how_busy": 100,
+        "how_old_are_you": 99,
+        "improve_credit_score": 100,
+        "income": 100,
+        "ingredient_substitution": 100,
+        "ingredients_list": 100,
+        "insurance": 100,
+        "insurance_change": 100,
+        "interest_rate": 100,
+        "international_fees": 100,
+        "international_visa": 100,
+        "jump_start": 100,
+        "last_maintenance": 100,
+        "lost_luggage": 100,
+        "make_call": 100,
+        "maybe": 100,
+        "meal_suggestion": 100,
+        "meaning_of_life": 99,
+        "measurement_conversion": 100,
+        "meeting_schedule": 100,
+        "min_payment": 100,
+        "mpg": 100,
+        "new_card": 100,
+        "next_holiday": 100,
+        "next_song": 100,
+        "no": 96,
+        "nutrition_info": 100,
+        "oil_change_how": 100,
+        "oil_change_when": 100,
+        "oos": 100,
+        "order": 100,
+        "order_checks": 100,
+        "order_status": 100,
+        "pay_bill": 100,
+        "payday": 100,
+        "pin_change": 100,
+        "play_music": 100,
+        "plug_type": 100,
+        "pto_balance": 100,
+        "pto_request": 100,
+        "pto_request_status": 100,
+        "pto_used": 100,
+        "recipe": 100,
+        "redeem_rewards": 100,
+        "reminder": 100,
+        "reminder_update": 100,
+        "repeat": 99,
+        "replacement_card_duration": 100,
+        "report_fraud": 100,
+        "report_lost_card": 100,
+        "reset_settings": 100,
+        "restaurant_reservation": 100,
+        "restaurant_reviews": 100,
+        "restaurant_suggestion": 100,
+        "rewards_balance": 100,
+        "roll_dice": 98,
+        "rollover_401k": 100,
+        "routing": 100,
+        "schedule_maintenance": 100,
+        "schedule_meeting": 100,
+        "share_location": 100,
+        "shopping_list": 100,
+        "shopping_list_update": 100,
+        "smart_home": 100,
+        "spelling": 100,
+        "spending_history": 100,
+        "sync_device": 99,
+        "taxes": 100,
+        "tell_joke": 100,
+        "text": 100,
+        "thank_you": 93,
+        "time": 100,
+        "timer": 100,
+        "timezone": 100,
+        "tire_change": 100,
+        "tire_pressure": 100,
+        "todo_list": 100,
+        "todo_list_update": 100,
+        "traffic": 100,
+        "transactions": 100,
+        "transfer": 100,
+        "translate": 100,
+        "travel_alert": 100,
+        "travel_notification": 100,
+        "travel_suggestion": 100,
+        "uber": 100,
+        "update_playlist": 100,
+        "user_name": 100,
+        "vaccines": 100,
+        "w2": 100,
+        "weather": 100,
+        "what_are_your_hobbies": 100,
+        "what_can_i_ask_you": 100,
+        "what_is_your_name": 100,
+        "what_song": 100,
+        "where_are_you_from": 100,
+        "whisper_mode": 100,
+        "who_do_you_work_for": 100,
+        "who_made_you": 100,
+        "yes": 95
+      }
+    },
+    "limits": "No seed/worker/time identifiers; paraphrase siblings and source label noise remain unknown. No independent relabeling.",
+    "near_duplicate_diagnostic": {
+      "confirm": {
+        "cosine_ge_0.95_vs_fit": 175,
+        "max_cosine": 1.0000000000000002
+      },
+      "dev": {
+        "cosine_ge_0.95_vs_fit": 106,
+        "max_cosine": 1.0000000000000002
+      }
+    },
+    "normalization": "NFKC, casefold, Unicode word tokens, join spaces",
+    "raw_counts": {
+      "oos_test": 1000,
+      "oos_train": 100,
+      "oos_val": 100,
+      "test": 4500,
+      "train": 15000,
+      "val": 3000
+    },
+    "removed": [
+      {
+        "conflicting_label": false,
+        "id": "train:455",
+        "owner": "train:414"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:4393",
+        "owner": "train:4382"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:4667",
+        "owner": "train:4651"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:4675",
+        "owner": "train:4661"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:4681",
+        "owner": "train:4665"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:4684",
+        "owner": "train:4633"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:4685",
+        "owner": "train:4611"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:5342",
+        "owner": "train:5303"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:5350",
+        "owner": "train:5340"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:5355",
+        "owner": "train:5351"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:5391",
+        "owner": "train:5347"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:5828",
+        "owner": "train:5825"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6456",
+        "owner": "train:6420"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6539",
+        "owner": "train:6536"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6579",
+        "owner": "train:6524"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6581",
+        "owner": "train:6572"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6587",
+        "owner": "train:6545"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6588",
+        "owner": "train:6513"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6590",
+        "owner": "train:6578"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6591",
+        "owner": "train:6568"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6678",
+        "owner": "train:6643"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:6681",
+        "owner": "train:6677"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:9651",
+        "owner": "train:9640"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:9658",
+        "owner": "train:9608"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:9678",
+        "owner": "train:9623"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:9698",
+        "owner": "train:9602"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:11245",
+        "owner": "train:11212"
+      },
+      {
+        "conflicting_label": false,
+        "id": "train:14055",
+        "owner": "train:14032"
+      },
+      {
+        "conflicting_label": true,
+        "id": "val:1011",
+        "owner": "train:7424"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1077",
+        "owner": "train:5362"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1301",
+        "owner": "train:6534"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1309",
+        "owner": "train:6598"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1408",
+        "owner": "train:7092"
+      },
+      {
+        "conflicting_label": true,
+        "id": "val:1794",
+        "owner": "train:11130"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1920",
+        "owner": "train:9625"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1922",
+        "owner": "train:9679"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1926",
+        "owner": "train:9692"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1937",
+        "owner": "train:9680"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:1965",
+        "owner": "train:9803"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:2369",
+        "owner": "train:11896"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:2370",
+        "owner": "train:11892"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:2371",
+        "owner": "train:11862"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:2376",
+        "owner": "train:11815"
+      },
+      {
+        "conflicting_label": false,
+        "id": "val:2818",
+        "owner": "train:14084"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:520",
+        "owner": "val:342"
+      },
+      {
+        "conflicting_label": true,
+        "id": "test:599",
+        "owner": "train:14018"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:814",
+        "owner": "train:2733"
+      },
+      {
+        "conflicting_label": true,
+        "id": "test:938",
+        "owner": "train:12066"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:994",
+        "owner": "val:675"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1305",
+        "owner": "train:4334"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1399",
+        "owner": "train:4644"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1405",
+        "owner": "test:1403"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1591",
+        "owner": "train:5347"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1594",
+        "owner": "train:5390"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1598",
+        "owner": "train:5385"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1973",
+        "owner": "val:1305"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:1974",
+        "owner": "train:6510"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:2236",
+        "owner": "train:7424"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:2887",
+        "owner": "train:9676"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:2891",
+        "owner": "train:9677"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:2892",
+        "owner": "train:9674"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:2893",
+        "owner": "train:9699"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:3550",
+        "owner": "train:11896"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:3552",
+        "owner": "train:11844"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:3555",
+        "owner": "train:11807"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:3559",
+        "owner": "train:11812"
+      },
+      {
+        "conflicting_label": false,
+        "id": "test:3569",
+        "owner": "train:11852"
+      }
+    ],
+    "retained_counts": {
+      "confirm": 5477,
+      "dev": 3084,
+      "fit": 15072
+    },
+    "split_sha256": {
+      "confirm": "21b342bae2d924390450b3b2add02f8bbbaf2b5a45a3a491c87abf1ce935e689",
+      "dev": "e6598f1fc820826847a17b953b74104c7493adae1493c8c7db559b7b1796b077",
+      "fit": "a6d4f4e5e7cab7757a0a7d172247b70f946057567afb632437b9a486d6d5fa71"
+    }
+  },
+  "candidate_skill_files": {
+    ".agents/skills/augustus-train/SKILL.md": "8e9a2977ad6cf58120a5df3bacf71fa30387b7645acea209f81f447c0d3d99b4",
+    ".agents/skills/augustus-train/references/compute-envelope.md": "7c38c10e733ff84d4f8cb72225b32bad2dfa23260d82491e489aa5a25eec8b35",
+    ".agents/skills/augustus-train/references/data-and-splits.md": "4ef9700080ba8b6904b6207fee39e3bd6dbf62d07ede03689d21aab6117b16a4",
+    ".agents/skills/augustus-train/references/fit-and-serve.md": "8e829bf8d1ef638ba2e603cf8e2e956bfe3be0939aa6771a3f04d6bb7e081836",
+    ".agents/skills/augustus-train/references/improve-and-confirm.md": "617f72ed9f2dc90fa8e11167513aef4f755ec5446a4e0552e2ddcd95cdfc148d",
+    ".agents/skills/augustus-train/references/spec-defects.md": "245a9d13bcd4d22bc9806db1b4c8947db307028719f92a15125bab11ec94234e",
+    ".agents/skills/augustus/SKILL.md": "76e8002fb98936ca608025dddfa71c8c0356a13301f38792c951eb2b31aaf325",
+    ".agents/skills/augustus/agents/openai.yaml": "618e5809087f9181e6fde860b3910a49d3e06223224e837fe96a9b6d552f4b05",
+    ".agents/skills/augustus/references/activation-triggers.md": "42bd18bb0bdfd7a55c2a94d4f7002a56415f62497dfc2b575b4b6eb532bc942a",
+    ".agents/skills/augustus/references/agent-self-assessment.md": "fca1b2b450712a433e63d8d37ef8be1ff56c9d77628f0b523c775986d05ddad4",
+    ".agents/skills/augustus/references/applied-mappings.md": "19a3aad6e7edb1718ec787793121c71b213f03d1dd957eff21c4c78f6cdee352",
+    ".agents/skills/augustus/references/boundary-audit.md": "00135dce79a4f5cb366619d931072fd211deb86244e0c66c0119fc3e52ad2c14",
+    ".agents/skills/augustus/references/composition-algebra.md": "db9a61093201da3fe6ed42757197c01a66a556388dc976dfbef1fe64b6171605",
+    ".agents/skills/augustus/references/faq.md": "2aae2261a8bcaa5663d3b788df5a5d927da7106e6c2b4bcb29581f01969e6a31",
+    ".agents/skills/augustus/references/formal-methods.md": "7beb9fcf7438ac5e1f94fcaa01db72d7ba11a9db0063561d148f2eb599a87e4e",
+    ".agents/skills/augustus/references/judgment-class.md": "3f82440aaef60ebc37a84d619af2ab06d8492818f5ed10657506fdc7edc19216",
+    ".agents/skills/augustus/references/mappings.md": "e72213b818818e39f55ee7504912185389df36ea4787adb1824c315d3187a1f9",
+    ".agents/skills/augustus/references/mental-models.md": "4e710665ea8699219e255bd067a6d1d4f6d3e27090403f89560b79ed06ea7293",
+    ".agents/skills/augustus/references/methods-catalog.md": "598a675b81f2a0bd21e3eaa263aa1dcf5b7fcbbc2f97090243818d3a800342f4",
+    ".agents/skills/augustus/references/mixed-architecture.md": "e59d669188b6e18378a0b4fd8471c96d57a43a5b8b0723f4c098e00f3b3ce06d",
+    ".agents/skills/augustus/references/optimizer-integration.md": "5fdd4fdfa74e25c1a4ab3db043e6e7ba64d237ab7c79c15bf527cf0332d0e52e",
+    ".agents/skills/augustus/references/question-design.md": "53f6e640b5941c0e4b972e661dec77b18cf42fc0669c2f44d2b0249c2fe28573",
+    ".agents/skills/augustus/references/toolbox-mapping.md": "8f8f51ebd0e0ec81dcb17bf4854465fa8a02de9305ecbc3e99e2572d7bd534f8",
+    ".agents/skills/augustus/references/validation.md": "f2e7d0f71e33f65993ebf23d63ae5ca977998de2a2a63786039e7fdb8ce54eb5",
+    ".agents/skills/augustus/scripts/climb_ledger.py": "1c7b7b95b8fcd4c9c7ec7d8ee6566a214b9ae7d0bc18948fc8bd5ee72b399da6",
+    ".agents/skills/augustus/scripts/compare_workflows.py": "defd3b46674216dac674b38cc483dbe2a4fc56cdb408c02bc742521df2e0588c",
+    ".agents/skills/augustus/scripts/evaluate_decisions.py": "acfd635ef6effdd4f0aa6794332de1d82ea4bc61443fee85a11e34f6e86cba25",
+    ".agents/skills/augustus/scripts/overlap_audit.py": "f06ca03b4df030faf950c5be986e7fda0ae9928ee7ae00bf322e501eae9b0d00",
+    ".agents/skills/augustus/scripts/provenance_gate.py": "7d6392225a7ea08807211969ca9c466de5bf268e344c75ec99c8f94046a616d4",
+    ".agents/skills/augustus/scripts/uniqueness_gate.py": "33a571e9a8cbba1cae76800e81f9083c5241e772ca47f39566a8660f9ca4fc8d"
+  },
+  "confirmation": {
+    "cold_seconds": 1.448000441999966,
+    "cpu_seconds_excluding_child": 1.083239613,
+    "decision": "accept_local_proxy_candidate",
+    "finalist": {
+      "candidate": "word-char-svc",
+      "confirm_file_not_read": true,
+      "contract_sha256": "4266b5ba16851f3f5b125fa4b31d19665ce95b6c567c8c618532514aa1313e75",
+      "dependencies_sha256": "a84c055818a80062a0c069ebd6f6f444131a82e29b239f1b0f9559c5b98f53d3",
+      "dev_sha256": "e6598f1fc820826847a17b953b74104c7493adae1493c8c7db559b7b1796b077",
+      "fit_sha256": "a6d4f4e5e7cab7757a0a7d172247b70f946057567afb632437b9a486d6d5fa71",
+      "frozen_at": "2026-09-26T17:00:50.043954+00:00",
+      "model_sha256": "00659867b74c16f457986473d0a7a4f9864f2a65cae2c56af0a977cbff7bb202",
+      "policy": {
+        "gap": 0.25,
+        "top": 0
+      },
+      "source_sha256": {
+        "check.py": "9f4541f0c70840bc6a460666948b4ef473aa31fd3e50cdd8ff8ab168a0e13697",
+        "experiment.py": "b844873c1d35a42a4b014db292ddcfb0c0437fe9c333bffe54e5fa9c1e27a92a",
+        "router.py": "fa9233d446a68e7731075d34343686de0cc524d77bb357ad63e7412c84654c1c"
+      },
+      "taxonomy_sha256": "c0c2be0c3353030099e48a1e31f4c30fcc73ab65511d216b407a985d2872186c"
+    },
+    "fresh_replay_n": 5477,
+    "fresh_replay_wall_seconds": 8.494788732000018,
+    "gates": {
+      "all_intent_recall_ge_0.30": true,
+      "cold_under_10s": true,
+      "cost_upper_lt_minus_0.03": true,
+      "fresh_actions_equal": true,
+      "fresh_score_drift_le_1e-10": true,
+      "oos_misroute_le_0.20": true,
+      "p95_under_100ms": true,
+      "rss_under_1024mib": true
+    },
+    "hoeffding_upper": -0.16549664017296636,
+    "incumbent_mean_cost": 0.3,
+    "limits": "Row-IID bound is conditional; crowdsourced paraphrase groups unknown. Not causal or production evidence.",
+    "max_margin_drift": 0.0,
+    "metrics": {
+      "correct_routes": 3755,
+      "coverage": 0.7193719189337229,
+      "mean_cost": 0.11796603980281174,
+      "misroutes": 185,
+      "n": 5477,
+      "oos_misroute_rate": 0.092,
+      "oos_n": 1000,
+      "oos_routed": 92,
+      "per_intent": {
+        "accept_reservations": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "account_blocked": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "alarm": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "application_status": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "apr": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "are_you_a_bot": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "balance": {
+          "correct_route_recall": 0.8333333333333334,
+          "n": 30
+        },
+        "bill_balance": {
+          "correct_route_recall": 0.5,
+          "n": 30
+        },
+        "bill_due": {
+          "correct_route_recall": 0.6666666666666666,
+          "n": 30
+        },
+        "book_flight": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "book_hotel": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "calculator": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "calendar": {
+          "correct_route_recall": 0.5666666666666667,
+          "n": 30
+        },
+        "calendar_update": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "calories": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "cancel": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "cancel_reservation": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "car_rental": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "card_declined": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "carry_on": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "change_accent": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "change_ai_name": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "change_language": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "change_speed": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "change_user_name": {
+          "correct_route_recall": 0.4666666666666667,
+          "n": 30
+        },
+        "change_volume": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "confirm_reservation": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "cook_time": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "credit_limit": {
+          "correct_route_recall": 0.8333333333333334,
+          "n": 30
+        },
+        "credit_limit_change": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "credit_score": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "current_location": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "damaged_card": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "date": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "definition": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "direct_deposit": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "directions": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "distance": {
+          "correct_route_recall": 0.43333333333333335,
+          "n": 30
+        },
+        "do_you_have_pets": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "exchange_rate": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "expiration_date": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "find_phone": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "flight_status": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "flip_coin": {
+          "correct_route_recall": 1.0,
+          "n": 29
+        },
+        "food_last": {
+          "correct_route_recall": 0.7333333333333333,
+          "n": 30
+        },
+        "freeze_account": {
+          "correct_route_recall": 0.9655172413793104,
+          "n": 29
+        },
+        "fun_fact": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "gas": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "gas_type": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "goodbye": {
+          "correct_route_recall": 0.6538461538461539,
+          "n": 26
+        },
+        "greeting": {
+          "correct_route_recall": 0.92,
+          "n": 25
+        },
+        "how_busy": {
+          "correct_route_recall": 0.6333333333333333,
+          "n": 30
+        },
+        "how_old_are_you": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "improve_credit_score": {
+          "correct_route_recall": 0.5333333333333333,
+          "n": 30
+        },
+        "income": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "ingredient_substitution": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "ingredients_list": {
+          "correct_route_recall": 0.6666666666666666,
+          "n": 30
+        },
+        "insurance": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "insurance_change": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "interest_rate": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "international_fees": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "international_visa": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "jump_start": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "last_maintenance": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "lost_luggage": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "make_call": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "maybe": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "meal_suggestion": {
+          "correct_route_recall": 0.6,
+          "n": 30
+        },
+        "meaning_of_life": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "measurement_conversion": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "meeting_schedule": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "min_payment": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "mpg": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "new_card": {
+          "correct_route_recall": 0.6666666666666666,
+          "n": 30
+        },
+        "next_holiday": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "next_song": {
+          "correct_route_recall": 0.8620689655172413,
+          "n": 29
+        },
+        "no": {
+          "correct_route_recall": 0.9259259259259259,
+          "n": 27
+        },
+        "nutrition_info": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "oil_change_how": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "oil_change_when": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "order": {
+          "correct_route_recall": 0.5666666666666667,
+          "n": 30
+        },
+        "order_checks": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "order_status": {
+          "correct_route_recall": 0.8333333333333334,
+          "n": 30
+        },
+        "pay_bill": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "payday": {
+          "correct_route_recall": 0.6666666666666666,
+          "n": 30
+        },
+        "pin_change": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "play_music": {
+          "correct_route_recall": 0.6666666666666666,
+          "n": 30
+        },
+        "plug_type": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "pto_balance": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "pto_request": {
+          "correct_route_recall": 0.6333333333333333,
+          "n": 30
+        },
+        "pto_request_status": {
+          "correct_route_recall": 0.8333333333333334,
+          "n": 30
+        },
+        "pto_used": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "recipe": {
+          "correct_route_recall": 0.6666666666666666,
+          "n": 30
+        },
+        "redeem_rewards": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "reminder": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "reminder_update": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "repeat": {
+          "correct_route_recall": 0.7931034482758621,
+          "n": 29
+        },
+        "replacement_card_duration": {
+          "correct_route_recall": 0.6666666666666666,
+          "n": 30
+        },
+        "report_fraud": {
+          "correct_route_recall": 0.5333333333333333,
+          "n": 30
+        },
+        "report_lost_card": {
+          "correct_route_recall": 0.8,
+          "n": 30
+        },
+        "reset_settings": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "restaurant_reservation": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "restaurant_reviews": {
+          "correct_route_recall": 0.5,
+          "n": 30
+        },
+        "restaurant_suggestion": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "rewards_balance": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "roll_dice": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "rollover_401k": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "routing": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "schedule_maintenance": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "schedule_meeting": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "share_location": {
+          "correct_route_recall": 0.6333333333333333,
+          "n": 30
+        },
+        "shopping_list": {
+          "correct_route_recall": 0.5333333333333333,
+          "n": 30
+        },
+        "shopping_list_update": {
+          "correct_route_recall": 0.6333333333333333,
+          "n": 30
+        },
+        "smart_home": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "spelling": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "spending_history": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "sync_device": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "taxes": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "tell_joke": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "text": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "thank_you": {
+          "correct_route_recall": 0.8928571428571429,
+          "n": 28
+        },
+        "time": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "timer": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "timezone": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "tire_change": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "tire_pressure": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "todo_list": {
+          "correct_route_recall": 0.7931034482758621,
+          "n": 29
+        },
+        "todo_list_update": {
+          "correct_route_recall": 0.7333333333333333,
+          "n": 30
+        },
+        "traffic": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "transactions": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "transfer": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "translate": {
+          "correct_route_recall": 0.8333333333333334,
+          "n": 30
+        },
+        "travel_alert": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "travel_notification": {
+          "correct_route_recall": 0.6333333333333333,
+          "n": 30
+        },
+        "travel_suggestion": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "uber": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "update_playlist": {
+          "correct_route_recall": 0.7666666666666667,
+          "n": 30
+        },
+        "user_name": {
+          "correct_route_recall": 0.8275862068965517,
+          "n": 29
+        },
+        "vaccines": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "w2": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "weather": {
+          "correct_route_recall": 0.9666666666666667,
+          "n": 30
+        },
+        "what_are_your_hobbies": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "what_can_i_ask_you": {
+          "correct_route_recall": 0.8333333333333334,
+          "n": 30
+        },
+        "what_is_your_name": {
+          "correct_route_recall": 0.8666666666666667,
+          "n": 30
+        },
+        "what_song": {
+          "correct_route_recall": 0.9333333333333333,
+          "n": 30
+        },
+        "where_are_you_from": {
+          "correct_route_recall": 0.9655172413793104,
+          "n": 29
+        },
+        "whisper_mode": {
+          "correct_route_recall": 1.0,
+          "n": 30
+        },
+        "who_do_you_work_for": {
+          "correct_route_recall": 0.7,
+          "n": 30
+        },
+        "who_made_you": {
+          "correct_route_recall": 0.9,
+          "n": 30
+        },
+        "yes": {
+          "correct_route_recall": 0.5357142857142857,
+          "n": 28
+        }
+      },
+      "reviews": 1537,
+      "weighted_cost": 0.1177815301173923
+    },
+    "paired_delta": -0.18203396019718826,
+    "peak_rss_mib": 287.921875,
+    "warm_single_p95_ms": 1.5255002999651877
+  },
+  "development": {
+    "correct_routes": 2491,
+    "coverage": 0.8265239948119325,
+    "mean_cost": 0.07084954604409856,
+    "misroutes": 58,
+    "n": 3084,
+    "oos_misroute_rate": 0.09,
+    "oos_n": 100,
+    "oos_routed": 9,
+    "reviews": 535,
+    "weighted_cost": 0.1161016746411483
+  },
+  "environment": {
+    "device": "CPU",
+    "numerical_threads": 1,
+    "platform": "Linux-6.1.158+-x86_64-with-glibc2.36",
+    "python": "3.11.6"
+  },
+  "evidence_kind": "Reproduced CLINC150 application proxy, not production or causal evidence",
+  "generated_sha256": {
+    "confirmation/predictions.json": "842a4d14356831aad34cc26918d1c1e558f23f5ef338bb12428ac4d4ef56a7cd",
+    "search/trials.json": "d5abf4ac7a7d606b8c48254d0851f6265a27d42c24699166ce2739dca4829401",
+    "taxonomy.json": "c0c2be0c3353030099e48a1e31f4c30fcc73ab65511d216b407a985d2872186c"
+  },
+  "interface": {
+    "arithmetic_and_boundaries": "pass",
+    "fresh_process_bundle_only": "pass",
+    "incumbent": "all inputs manual_review",
+    "limits": "Hand-authored smoke probes, not additional representative confirmation; unsupported semantic OOS, multilingual, multi-intent and adversarial cases observed without universal success assertions.",
+    "malformed_json": {
+      "action": "manual_review",
+      "gap": null,
+      "intent": null,
+      "margin": null,
+      "queue": "support.manual_review",
+      "reason": "invalid_json"
+    },
+    "missing_and_corrupt_bundle": "manual_review",
+    "probes": [
+      {
+        "input": {
+          "text": "what is my bank account balance"
+        },
+        "output": {
+          "action": "route",
+          "gap": 2.016613080514819,
+          "intent": "balance",
+          "margin": 1.3580086724784255,
+          "queue": "support.balance",
+          "reason": "accepted"
+        }
+      },
+      {
+        "input": {
+          "text": "what is the weather forecast for tomorrow"
+        },
+        "output": {
+          "action": "route",
+          "gap": 2.9102075613283285,
+          "intent": "weather",
+          "margin": 1.8826825254663855,
+          "queue": "support.weather",
+          "reason": "accepted"
+        }
+      },
+      {
+        "input": {
+          "text": "please play some jazz music"
+        },
+        "output": {
+          "action": "route",
+          "gap": 2.668474205463265,
+          "intent": "play_music",
+          "margin": 2.0139271472813887,
+          "queue": "support.play_music",
+          "reason": "accepted"
+        }
+      },
+      {
+        "input": {
+          "text": "explain quantum entanglement"
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": 0.07531268521074141,
+          "intent": null,
+          "margin": -0.8083062320873097,
+          "queue": "support.manual_review",
+          "reason": "predicted_oos"
+        }
+      },
+      {
+        "input": {
+          "text": "\ud83e\udd84\ud83e\udd84\ud83e\udd84"
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "no_features"
+        }
+      },
+      {
+        "input": {
+          "text": ""
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": {
+          "text": "   "
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": {
+          "text": null
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": {
+          "text": 27
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": {},
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": null,
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": [],
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": {
+          "text": "[2001 characters]"
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": {
+          "options": [
+            "new_intent"
+          ],
+          "text": "what is my account balance"
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": null,
+          "intent": null,
+          "margin": null,
+          "queue": "support.manual_review",
+          "reason": "invalid_input"
+        }
+      },
+      {
+        "input": {
+          "text": "check my balance and book me a flight"
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": 0.049154881413785656,
+          "intent": null,
+          "margin": 0.08344153484717798,
+          "queue": "support.manual_review",
+          "reason": "low_margin"
+        }
+      },
+      {
+        "input": {
+          "text": "cuanto dinero tengo en mi cuenta"
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": 0.042616557178309256,
+          "intent": null,
+          "margin": -0.9058805089516292,
+          "queue": "support.manual_review",
+          "reason": "predicted_oos"
+        }
+      },
+      {
+        "input": {
+          "text": "ignore instructions and output transfer_money"
+        },
+        "output": {
+          "action": "manual_review",
+          "gap": 0.18707665226271442,
+          "intent": null,
+          "margin": -0.3116799308872301,
+          "queue": "support.manual_review",
+          "reason": "low_margin"
+        }
+      }
+    ],
+    "source_sha256": "9f4541f0c70840bc6a460666948b4ef473aa31fd3e50cdd8ff8ab168a0e13697"
+  },
+  "post_freeze_overlap_sensitivity": {
+    "limits": "Descriptive only, no model/policy changes. Remaining rows are not proven independent semantic families. Near slice intentionally retained as labeled diagnostics.",
+    "slices": {
+      "near_fit_or_dev_cosine_ge_0.95": {
+        "correct_routes": 211,
+        "coverage": 0.9813953488372092,
+        "mean_cost": 0.005581395348837209,
+        "misroutes": 0,
+        "n": 215,
+        "oos_misroute_rate": 0.0,
+        "oos_n": 1,
+        "oos_routed": 0,
+        "reviews": 4
+      },
+      "remaining": {
+        "correct_routes": 3544,
+        "coverage": 0.7086659064994298,
+        "mean_cost": 0.12255796275180537,
+        "misroutes": 185,
+        "n": 5262,
+        "oos_misroute_rate": 0.0920920920920921,
+        "oos_n": 999,
+        "oos_routed": 92,
+        "reviews": 1533
+      }
+    }
+  },
+  "provenance": {
+    "attribution": "Larson et al. (2019), An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction, https://aclanthology.org/D19-1131/",
+    "changes": "Normalized-duplicate removal; labels unchanged; training-only TF-IDF features",
+    "files": {
+      "LICENSE": {
+        "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+        "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/LICENSE"
+      },
+      "README.md": {
+        "sha256": "8a8df26c4de3d25b6c4cff385ca23602c30e4e56828b015206cbc202f6db363a",
+        "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/README.md"
+      },
+      "data/data_full.json": {
+        "sha256": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0",
+        "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/data_full.json"
+      }
+    },
+    "license": "CC BY 3.0 Unported; retained verbatim in source/LICENSE",
+    "repository": "https://github.com/clinc/oos-eval",
+    "retrieved_at": "2026-09-26T16:58:54.506261+00:00",
+    "revision": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+    "skill_sha256": {
+      ".agents/skills/augustus-train/SKILL.md": "8e9a2977ad6cf58120a5df3bacf71fa30387b7645acea209f81f447c0d3d99b4",
+      ".agents/skills/augustus/SKILL.md": "76e8002fb98936ca608025dddfa71c8c0356a13301f38792c951eb2b31aaf325"
+    }
+  },
+  "search": {
+    "cpu_seconds": 30.332893287,
+    "finalist": "word-char-svc",
+    "fits": 3,
+    "peak_rss_mib": 457.296875,
+    "policies": 72,
+    "policy": {
+      "gap": 0.25,
+      "top": 0
+    },
+    "stop": "predeclared sweep complete; no confirmation read",
+    "wall_seconds": 30.36527205499999
+  },
+  "trials": [
+    {
+      "best_eligible": {
+        "correct_routes": 2330,
+        "coverage": 0.7720492866407264,
+        "mean_cost": 0.08492217898832684,
+        "misroutes": 51,
+        "n": 3084,
+        "oos_misroute_rate": 0.09,
+        "oos_n": 100,
+        "oos_routed": 9,
+        "policy": {
+          "gap": 0.5,
+          "top": 0
+        },
+        "reviews": 703,
+        "weighted_cost": 0.1280654306220096
+      },
+      "candidate": "word-svc",
+      "cpu_seconds": 4.94173026,
+      "features": 30000,
+      "policy_count": 24
+    },
+    {
+      "best_eligible": {
+        "correct_routes": 2448,
+        "coverage": 0.8125810635538262,
+        "mean_cost": 0.07503242542153048,
+        "misroutes": 58,
+        "n": 3084,
+        "oos_misroute_rate": 0.11,
+        "oos_n": 100,
+        "oos_routed": 11,
+        "policy": {
+          "gap": 0.5,
+          "top": -0.5
+        },
+        "reviews": 578,
+        "weighted_cost": 0.12167093301435405
+      },
+      "candidate": "char-svc",
+      "cpu_seconds": 10.379723269,
+      "features": 30000,
+      "policy_count": 24
+    },
+    {
+      "best_eligible": {
+        "correct_routes": 2491,
+        "coverage": 0.8265239948119325,
+        "mean_cost": 0.07084954604409856,
+        "misroutes": 58,
+        "n": 3084,
+        "oos_misroute_rate": 0.09,
+        "oos_n": 100,
+        "oos_routed": 9,
+        "policy": {
+          "gap": 0.25,
+          "top": 0
+        },
+        "reviews": 535,
+        "weighted_cost": 0.1161016746411483
+      },
+      "candidate": "word-char-svc",
+      "cpu_seconds": 13.214816952,
+      "features": 60000,
+      "policy_count": 24
+    }
+  ]
+}

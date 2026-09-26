@@ -1,0 +1,40 @@
++ date -u +%FT%TZ
+2026-09-26T16:57:52Z
++ git rev-parse HEAD
+5b7610b767c9373cf2d0d25983f0e913f736caae
++ python3 --version
+Python 3.11.6
++ git ls-files .agents/skills
++ xargs sha256sum
++ sort
++ sha256sum research/audits/2026-09-26-trainer-journeys/behavior/renewal_router.py research/audits/2026-09-26-trainer-journeys/behavior/test_renewal_router.py
+1603dad07889e2afaa333688003ef891546fe9e469c23434717efd914b3449c2  research/audits/2026-09-26-trainer-journeys/behavior/renewal_router.py
+f6041f9e445d5983800f9a9ca9f84e4d27145482b58bc56ca24ed6baa2dfa815  research/audits/2026-09-26-trainer-journeys/behavior/test_renewal_router.py
++ python3 -m unittest discover -s research/audits/2026-09-26-trainer-journeys/behavior -p test_renewal_router.py -v
+test_approved_routes_override_notes_and_old_route (test_renewal_router.RouterTests.test_approved_routes_override_notes_and_old_route) ... ok
+test_correction_recomputes_without_stale_state (test_renewal_router.RouterTests.test_correction_recomputes_without_stale_state) ... ok
+test_fresh_process_without_data_or_repository (test_renewal_router.RouterTests.test_fresh_process_without_data_or_repository) ... ok
+test_malformed_transport (test_renewal_router.RouterTests.test_malformed_transport) ... ok
+test_missing_and_malformed (test_renewal_router.RouterTests.test_missing_and_malformed) ... ok
+test_unknown_exact_vocabulary (test_renewal_router.RouterTests.test_unknown_exact_vocabulary) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.021s
+
+OK
++ python3 research/audits/2026-09-26-trainer-journeys/behavior/renewal_router.py
++ printf '%s\n' '{"notice_type":"renewal_due"}' '{"notice_type":"payment_failed"}' '{"notice_type":"contract_changed"}' '{"notice_type":"new_kind"}' '{}' '{"notice_type":[]}' '{broken' '{"notice_type":"renewal_due"}'
+{"route": "billing", "status": "matched", "policy_id": "renewal-authoritative-v1"}
+{"route": "collections", "status": "matched", "policy_id": "renewal-authoritative-v1"}
+{"route": "account_review", "status": "matched", "policy_id": "renewal-authoritative-v1"}
+{"route": "operations_review", "status": "unknown_notice_type", "policy_id": "renewal-authoritative-v1"}
+{"route": "operations_review", "status": "missing_notice_type", "policy_id": "renewal-authoritative-v1"}
+{"route": "operations_review", "status": "malformed_notice_type", "policy_id": "renewal-authoritative-v1"}
+{"route": "operations_review", "status": "malformed_json", "policy_id": "renewal-authoritative-v1"}
+{"route": "billing", "status": "matched", "policy_id": "renewal-authoritative-v1"}
++ python3 scripts/check_repo.py
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/scripts/check_repo.py", line 20, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
++ git diff --check

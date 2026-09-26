@@ -1,0 +1,157 @@
+{
+  "accepted_proxy": true,
+  "active": {
+    "bundle": "word8.joblib",
+    "sha256": "93a44838427cf156a12eb46fb16ae43b8f5a6e33f8fccdf425d484f843696649"
+  },
+  "bootstrap_upper_95": -0.06461232604373758,
+  "candidate": {
+    "fn": 15,
+    "fp": 2,
+    "group_loss": 0.02385685884691849,
+    "ham": 899,
+    "ham_fpr": 0.002224694104560623,
+    "n": 1025,
+    "row_loss": 0.024390243902439025,
+    "spam": 126,
+    "spam_recall": 0.8809523809523809,
+    "tn": 897,
+    "tp": 111
+  },
+  "cold_seconds": 0.7690332799999737,
+  "confirmation_groups": 1006,
+  "digest_failure": {
+    "action": "ham",
+    "policy": "sms-review-v1",
+    "score": null,
+    "status": "artifact_unavailable"
+  },
+  "environment": {
+    "platform": "Linux-6.1.158+-x86_64-with-glibc2.36",
+    "python": "3.11.6"
+  },
+  "evidence": "conditional public proxy, approximate group bootstrap",
+  "finalist": {
+    "artifact_sha256": "93a44838427cf156a12eb46fb16ae43b8f5a6e33f8fccdf425d484f843696649",
+    "contract_sha256": "2396bba2147e6d81ea7d7879768123b3e4aeca99aa39b58abb03784fdf08a0d2",
+    "selection": "minimum development group loss; no refit",
+    "split_manifest_sha256": "1b4323e7cc2b38b47b3983fc396d502760de37295d4a2c02cb960f8d7d8cf2e4",
+    "trial": "word8"
+  },
+  "incumbent": {
+    "fn": 126,
+    "fp": 0,
+    "group_loss": 0.1073558648111332,
+    "ham": 899,
+    "ham_fpr": 0.0,
+    "n": 1025,
+    "row_loss": 0.12292682926829268,
+    "spam": 126,
+    "spam_recall": 0.0,
+    "tn": 899,
+    "tp": 0
+  },
+  "paired_group_mean_delta": -0.08349900596421471,
+  "peak_rss_mib": 122.1484375,
+  "probe_outputs": [
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "malformed_json"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "invalid_input"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "invalid_input"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "invalid_input"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "invalid_input"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "invalid_input"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "no_features"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": null,
+      "status": "no_features"
+    },
+    {
+      "action": "spam-review",
+      "policy": "sms-review-v1",
+      "score": 0.9387629680938485,
+      "status": "ok"
+    },
+    {
+      "action": "ham",
+      "policy": "sms-review-v1",
+      "score": 0.006042856763898557,
+      "status": "ok"
+    }
+  ],
+  "reload_rows": 1025,
+  "slices": {
+    "long_gt_160": {
+      "fn": 0,
+      "fp": 0,
+      "group_loss": 0.0,
+      "ham": 29,
+      "ham_fpr": 0.0,
+      "n": 36,
+      "row_loss": 0.0,
+      "spam": 7,
+      "spam_recall": 1.0,
+      "tn": 29,
+      "tp": 7
+    },
+    "short_le_60": {
+      "fn": 1,
+      "fp": 2,
+      "group_loss": 0.02,
+      "ham": 547,
+      "ham_fpr": 0.003656307129798903,
+      "n": 551,
+      "row_loss": 0.019963702359346643,
+      "spam": 4,
+      "spam_recall": 0.75,
+      "tn": 545,
+      "tp": 3
+    }
+  },
+  "source_sha256": {
+    "journey.py": "744d5bd5254a0deb4458fc3a07426b8e7dcd082d6811f9cb81690704a3fee7d5",
+    "requirements.lock": "03a18e3fd88966f6485a331a6500aaa681e12b1d093482a9af679732bce91899",
+    "sms.py": "cf02c3704a480e6d0388e8f6921310cdc705de87c9cf2e0e7ca2cabbc2780565"
+  },
+  "statuses": {
+    "no_features": 3,
+    "ok": 1022
+  },
+  "warm_p95_ms": 0.36454559996172975
+}

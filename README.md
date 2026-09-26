@@ -116,6 +116,11 @@ dependencies and any compute spend depend on the selected recipe.
 > artifact with an evaluation. Then run a bounded improvement loop without
 > using the final evaluation data to tune it. Keep the incumbent if it wins.
 
+The [development acceptance audit](research/audits/2026-09-26-trainer-journeys/README.md)
+includes replayable binary and 150-intent CPU training journeys, bounded candidate
+selection, fresh-process inference, and a no-training exact-rule result. These
+are public-proxy/fixture executions, not production or general-Jev claims.
+
 The skill needs no API key to provide design guidance. Calling Jev or another
 hosted provider is a separate, optional integration with its own credentials
 and costs. Review installed instructions before granting any agent access.

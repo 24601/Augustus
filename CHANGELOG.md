@@ -29,6 +29,12 @@ release, and the published `v0.7.2` tag is unchanged.
   model selection, cost-sensitive/open-set decisions, no-training outcomes
   and inference artifact semantics. Scenario definitions are not executed
   training evidence.
+- Reproducible CPU application-proxy journeys for binary and 150-intent routing,
+  including actual fits, bounded search, rejection/fallback and fresh-process
+  inference; an exact-rule no-training journey and fresh-agent behavioral review.
+  The coordinator replayed all three. See the
+  [acceptance audit](research/audits/2026-09-26-trainer-journeys/README.md)
+  for observed results and public-data/independence limits.
 - `.local/` and `.claude/` are ignored, so local working directories and
   Claude Code session state cannot be committed by accident.
 
