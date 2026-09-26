@@ -144,3 +144,68 @@ at fixed batch composition.
 - Counts at different thresholds need not be distinct rows.
 - One reader, 50 questions, one pass pair. The 4B reader remains untimed and untested for rerun
   behaviour, and nothing here extrapolates to it.
+
+## 2026-09-26: the failure does not reproduce on NVIDIA
+
+Replicated on a Colab A100-SXM4-40GB, vLLM 0.30.0, torch 2.13.0+cu130, same pinned reader
+(Qwen3-1.7B `70d244cc86cc`) and the same `e3_replay.py`. **A second replay on the same box, with
+identical batch composition, agreed with the first on everything:**
+
+| | gfx1151 / ROCm | A100 / vLLM |
+| --- | --- | --- |
+| identical answer | — | 1.0000 |
+| identical action | — | 1.0000 |
+| identical `p_answerable` (exact float) | — | 1.0000 |
+| **joint per-question disagreement** | **1.0000** | **0.0000** |
+
+Two of 3,000 cells differed in `action_mass` and one in the full `p_action` dict — top-20-logprob
+tail bookkeeping — and the argmax action never changed.
+
+**So the 100% joint rerun disagreement this receipt recorded is a property of that backend, not of
+the arms, the prompts or the reader.** The conclusion that frozen tables are the sole source of
+reader behaviour, and that the disagreement rate travels with every result, is correct **for
+gfx1151** and is not a hardware-general statement. On this NVIDIA stack the tables would not have to
+be frozen at all.
+
+That is a caveat this project attached to every E3 number, now narrowed to the machine that produced
+it. It is also a reminder in the other direction: had E3 been run only on NVIDIA, the determinism
+check would have passed and we would have learned nothing about how fragile the replay is elsewhere.
+
+### Cross-vendor is 1.0 joint, and the joint metric is the wrong lens for it
+
+Shipped ROCm table against the fresh NVIDIA table: joint per-question disagreement 1.0000 on both
+splits — **arithmetically inevitable**, because `p_answerable` is an exact float compared nine times
+per question and two vendors' kernels do not agree bitwise. The content underneath agrees closely:
+
+| | search (1,000 q) | confirmation (6,405 q) |
+| --- | --- | --- |
+| identical answer | 0.9653 | 0.9672 |
+| identical action | 0.9627 | 0.9564 |
+| per-call joint identity | 0.6437 | 0.6425 |
+| median / p99 abs Δ`p_answerable` | 2.23e-06 / 0.1546 | 2.41e-06 / 0.1548 |
+| threshold crossings | 22–30 of 3,000 | 157–164 of 19,215 |
+| MiniLM similarity max abs Δ | 8.3e-07 | 1.0e-06 |
+| `k_effective` identical | 1.0000 | 1.0000 |
+
+Per-arm stop/expand/abstain decisions match across vendors on 93.2–97.2% of questions, and E3's
+headline behaviour transports: the implicit arm abstains on 50.3% of search questions under ROCm
+and 50.6% under NVIDIA. MiniLM cosines agreeing to 1e-06 means arm (iii) is vendor-independent.
+
+**Reporting "100% joint disagreement" without the rows beneath it overstates the instability.** An
+exact-float equality test on nine comparisons is a near-certain failure across any two floating-point
+implementations; the decision-level agreement is 95–97%.
+
+### Arm selection did not move, for the arm that can be checked without gold
+
+Selection re-run on the fresh NVIDIA search table: arm (vi) `proxy_selected` chose `composite @ 0.05`
+on both tables, proxy mean utility 0.72643 against 0.72543, every label-free column agreeing to the
+third decimal. `best_explicit`, `best_constant` and `outcome_selected` select on mean utility and
+need gold, so they are being re-run by the label holder.
+
+### Limit
+
+That machine ran vLLM 0.30.0, torch 2.13 cu130 and transformers 5.16.1, which are not tabputer's
+versions. **The cross-vendor comparison therefore changes more than the card**, and a cross-vendor
+difference cannot be attributed to the vendor. The same-box rerun is unaffected: it holds everything
+fixed and changes only the repetition. The plan's call for a pinned container on a rented GPU is the
+fix, and this run is not that.
