@@ -1,0 +1,75 @@
+test_attainable_thresholds_against_exhaustive_policy_oracle (__main__.Acceptance.test_attainable_thresholds_against_exhaustive_policy_oracle) ... FAIL
+test_authoritative_mapping_and_recovery_without_training (__main__.Acceptance.test_authoritative_mapping_and_recovery_without_training) ... FAIL
+test_calibration_and_fresh_process_actions (__main__.Acceptance.test_calibration_and_fresh_process_actions) ... FAIL
+test_correct_routing_unchanged (__main__.Acceptance.test_correct_routing_unchanged) ... ok
+test_correct_service_unchanged (__main__.Acceptance.test_correct_service_unchanged) ... ok
+test_correct_training_unchanged (__main__.Acceptance.test_correct_training_unchanged) ... ok
+test_optimizer_membership_and_actual_updates (__main__.Acceptance.test_optimizer_membership_and_actual_updates) ... /usr/local/lib/python3.11/site-packages/torch/_subclasses/functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+FAIL
+test_required_calibration_refuses_missing_and_invalid (__main__.Acceptance.test_required_calibration_refuses_missing_and_invalid) ... FAIL
+test_soft_target_objective_gradient_and_fit (__main__.Acceptance.test_soft_target_objective_gradient_and_fit) ... FAIL
+
+======================================================================
+FAIL: test_attainable_thresholds_against_exhaustive_policy_oracle (__main__.Acceptance.test_attainable_thresholds_against_exhaustive_policy_oracle)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/research/audits/2026-09-26-trainer-081-qa/grade.py", line 128, in test_attainable_thresholds_against_exhaustive_policy_oracle
+    self.assertEqual(m.choose_threshold(list(ordering), cap), oracle)
+AssertionError: {'threshold': 0.9, 'coverage': 0.25, 'risk': 0.0} != {'threshold': None, 'coverage': 0.0, 'risk': None}
+- {'coverage': 0.25, 'risk': 0.0, 'threshold': 0.9}
+?                ^^          ^^^               ^^^
+
++ {'coverage': 0.0, 'risk': None, 'threshold': None}
+?                ^          ^^^^               ^^^^
+
+
+======================================================================
+FAIL: test_authoritative_mapping_and_recovery_without_training (__main__.Acceptance.test_authoritative_mapping_and_recovery_without_training)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/research/audits/2026-09-26-trainer-081-qa/grade.py", line 139, in test_authoritative_mapping_and_recovery_without_training
+    self.assertEqual(m.route(routes, {'notice_type': kind}), destination)
+AssertionError: 'sales' != 'billing'
+- sales
++ billing
+
+
+======================================================================
+FAIL: test_calibration_and_fresh_process_actions (__main__.Acceptance.test_calibration_and_fresh_process_actions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/research/audits/2026-09-26-trainer-081-qa/grade.py", line 82, in test_calibration_and_fresh_process_actions
+    self.assertAlmostEqual(got, want, places=12)
+AssertionError: 0.14285714285714285 != 0.047619047619047616 within 12 places (0.09523809523809523 difference)
+
+======================================================================
+FAIL: test_optimizer_membership_and_actual_updates (__main__.Acceptance.test_optimizer_membership_and_actual_updates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/research/audits/2026-09-26-trainer-081-qa/grade.py", line 39, in test_optimizer_membership_and_actual_updates
+    self.assertEqual(actual, expected)
+AssertionError: Items in the second set but not the first:
+139754507477520
+139754479489328
+
+======================================================================
+FAIL: test_required_calibration_refuses_missing_and_invalid (__main__.Acceptance.test_required_calibration_refuses_missing_and_invalid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/research/audits/2026-09-26-trainer-081-qa/grade.py", line 105, in test_required_calibration_refuses_missing_and_invalid
+    with self.assertRaises((ValueError, KeyError)):
+AssertionError: (<class 'ValueError'>, <class 'KeyError'>) not raised
+
+======================================================================
+FAIL: test_soft_target_objective_gradient_and_fit (__main__.Acceptance.test_soft_target_objective_gradient_and_fit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/research/audits/2026-09-26-trainer-081-qa/grade.py", line 60, in test_soft_target_objective_gradient_and_fit
+    self.assertAlmostEqual(loss.item(), math.log1p(math.exp(.4)) - q * .4, places=12)
+AssertionError: 0.9130152523999526 != 0.8610152523999526 within 12 places (0.052000000000000046 difference)
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.814s
+
+FAILED (failures=6)

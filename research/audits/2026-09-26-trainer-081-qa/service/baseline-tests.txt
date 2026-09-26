@@ -1,0 +1,159 @@
+test_authoritative_routes_and_fallbacks (__main__.ApplicationContract.test_authoritative_routes_and_fallbacks) ... FAIL
+test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) ... 
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=None) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=True) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=False) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=0) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=-1) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid='2') ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=[]) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid={}) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=inf) ... FAIL
+  test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=nan) ... FAIL
+test_distribution_and_strict_boundary (__main__.ApplicationContract.test_distribution_and_strict_boundary) ... FAIL
+test_finite_extremes (__main__.ApplicationContract.test_finite_extremes) ... 
+  test_finite_extremes (__main__.ApplicationContract.test_finite_extremes) (module='service') ... FAIL
+  test_finite_extremes (__main__.ApplicationContract.test_finite_extremes) (module='service_control') ... FAIL
+test_fresh_process_jsonl (__main__.ApplicationContract.test_fresh_process_jsonl) ... FAIL
+test_threshold_exhaustive (__main__.ApplicationContract.test_threshold_exhaustive) ... FAIL
+
+======================================================================
+FAIL: test_authoritative_routes_and_fallbacks (__main__.ApplicationContract.test_authoritative_routes_and_fallbacks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 91, in test_authoritative_routes_and_fallbacks
+    self.assertEqual(routes, approved)
+AssertionError: {'renewal': 'sales', 'cancellation': 'retention'} != {'renewal': 'legal', 'audit': 'compliance'}
+- {'cancellation': 'retention', 'renewal': 'sales'}
++ {'audit': 'compliance', 'renewal': 'legal'}
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid='2')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=inf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) (module='service', invalid=nan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 28, in test_calibration_load_and_raw
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_distribution_and_strict_boundary (__main__.ApplicationContract.test_distribution_and_strict_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 44, in test_distribution_and_strict_boundary
+    self.assertAlmostEqual(result['probabilities'][0], 0.25)
+AssertionError: 0.09999999999999998 != 0.25 within 7 places (0.15000000000000002 difference)
+
+======================================================================
+FAIL: test_finite_extremes (__main__.ApplicationContract.test_finite_extremes) (module='service')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 63, in test_finite_extremes
+    self.assertAlmostEqual(result['probabilities'][0], 1 / (1 + math.exp(2)))
+AssertionError: 0.0 != 0.11920292202211755 within 7 places (0.11920292202211755 difference)
+
+======================================================================
+FAIL: test_finite_extremes (__main__.ApplicationContract.test_finite_extremes) (module='service_control')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 63, in test_finite_extremes
+    self.assertAlmostEqual(result['probabilities'][0], 1 / (1 + math.exp(2)))
+AssertionError: 0.0 != 0.11920292202211755 within 7 places (0.11920292202211755 difference)
+
+======================================================================
+FAIL: test_fresh_process_jsonl (__main__.ApplicationContract.test_fresh_process_jsonl)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 111, in test_fresh_process_jsonl
+    self.assertAlmostEqual(outputs[0]['expected'], 3)
+AssertionError: 3.5999999999999996 != 3 within 7 places (0.5999999999999996 difference)
+
+======================================================================
+FAIL: test_threshold_exhaustive (__main__.ApplicationContract.test_threshold_exhaustive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-service/test_repair.py", line 82, in test_threshold_exhaustive
+    self.assertEqual(service.choose_threshold(rows, cap), expected, (rows, cap))
+AssertionError: {'threshold': 0, 'coverage': 0.5, 'risk': 0.0} != {'threshold': None, 'coverage': 0.0, 'risk': None}
+- {'coverage': 0.5, 'risk': 0.0, 'threshold': 0}
+?                ^          ^^^               ^
+
++ {'coverage': 0.0, 'risk': None, 'threshold': None}
+?                ^          ^^^^               ^^^^
+ : ([{'score': 0, 'error': 0}, {'score': 0, 'error': 1}], 0)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.113s
+
+FAILED (failures=16)

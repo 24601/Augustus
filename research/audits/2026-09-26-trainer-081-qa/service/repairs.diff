@@ -1,0 +1,64 @@
+--- original/service.py
++++ repaired/service.py
+@@ -7,11 +7,20 @@
+ 
+ def load_bundle(path):
+     bundle = json.loads(Path(path).read_text())
++    if bundle.get('calibration_required'):
++        t = bundle.get('temperature')
++        if type(t) not in (float, int) or not math.isfinite(t) or t <= 0:
++            raise ValueError('required temperature missing or invalid')
+     return bundle
+ 
+ 
+ def predict(bundle, logits):
+-    weights = [math.exp(x - max(logits)) for x in logits]
++    temperature = bundle['temperature'] if bundle.get('calibration_required') else 1.0
++    peak = max(logits)
++    # Subtract first for close logits; scale first only if subtraction overflows.
++    scaled = [(x - peak) / temperature if math.isfinite(x - peak)
++              else x / temperature - peak / temperature for x in logits]
++    weights = [math.exp(x) for x in scaled]
+     probabilities = [x / sum(weights) for x in weights]
+     expected = sum(level * p for level, p in zip(bundle['levels'], probabilities))
+     return {'probabilities': probabilities, 'expected': expected,
+@@ -25,10 +34,11 @@
+     errors = 0
+     for n, row in enumerate(ordered, 1):
+         errors += row['error']
++        if n < len(ordered) and ordered[n]['score'] == row['score']:
++            continue
+         risk = errors / n
+-        if risk > max_risk:
+-            break
+-        best = {'threshold': row['score'], 'coverage': n / len(rows), 'risk': risk}
++        if risk <= max_risk:
++            best = {'threshold': row['score'], 'coverage': n / len(rows), 'risk': risk}
+     return best
+ 
+ 
+--- original/service_control.py
++++ repaired/service_control.py
+@@ -16,7 +16,10 @@
+ 
+ def predict(bundle, logits):
+     temperature = bundle['temperature'] if bundle.get('calibration_required') else 1.0
+-    scaled = [(x - max(logits)) / temperature for x in logits]
++    peak = max(logits)
++    # Subtract first for close logits; scale first only if subtraction overflows.
++    scaled = [(x - peak) / temperature if math.isfinite(x - peak)
++              else x / temperature - peak / temperature for x in logits]
+     weights = [math.exp(x) for x in scaled]
+     probabilities = [x / sum(weights) for x in weights]
+     expected = sum(level * p for level, p in zip(bundle['levels'], probabilities))
+--- original/routing.py
++++ repaired/routing.py
+@@ -4,7 +4,7 @@
+ 
+ 
+ def load_routes(path):
+-    return {'renewal': 'sales', 'cancellation': 'retention'}
++    return json.loads(Path(path).read_text())
+ 
+ 
+ def route(routes, notice):

@@ -1,0 +1,11 @@
+test_authoritative_routes_and_fallbacks (__main__.ApplicationContract.test_authoritative_routes_and_fallbacks) ... ok
+test_calibration_load_and_raw (__main__.ApplicationContract.test_calibration_load_and_raw) ... ok
+test_distribution_and_strict_boundary (__main__.ApplicationContract.test_distribution_and_strict_boundary) ... ok
+test_finite_extremes (__main__.ApplicationContract.test_finite_extremes) ... ok
+test_fresh_process_jsonl (__main__.ApplicationContract.test_fresh_process_jsonl) ... ok
+test_threshold_exhaustive (__main__.ApplicationContract.test_threshold_exhaustive) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.116s
+
+OK

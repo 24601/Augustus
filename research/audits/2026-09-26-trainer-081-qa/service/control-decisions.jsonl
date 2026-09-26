@@ -1,0 +1,3 @@
+{"probabilities": [0.25, 0.75], "expected": 3.0, "action": "review"}
+{"probabilities": [0.5, 0.5], "expected": 2.0, "action": "review"}
+{"probabilities": [0.017986209962091555, 0.9820137900379085], "expected": 3.928055160151634, "action": "act"}

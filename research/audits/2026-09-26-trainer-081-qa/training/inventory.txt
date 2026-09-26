@@ -1,0 +1,21 @@
+augustus 0.8.1-dev
+  Description: Find, build, evaluate, and hill-climb decision-model systems. Apply composition, decision theory, calibration and outcome evaluation across software, business and everyday decisions. TypeSafe Jev is the default hosted exemplar. Independent of TypeSafe.
+  Source: augustus@augustus
+
+Component inventory
+  Skills (2)  augustus, augustus-train
+  Agents (0)
+  Hooks (0)
+  MCP servers (0)
+  LSP servers (0)
+
+Projected token cost
+  Always-on:   ~212 tok   added to every session
+
+Per-component (rounded)
+  component       always-on  on-invoke
+  augustus-train        ~90      ~2.2k
+  augustus             ~120      ~2.6k
+
+  On-invoke cost is paid each time a skill or agent fires.
+  Token counts are estimates and may differ from actual usage.

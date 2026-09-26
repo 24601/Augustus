@@ -1,0 +1,6 @@
+test_false_control_and_repair_against_decimal (__main__.ControlAdjudication.test_false_control_and_repair_against_decimal) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+OK

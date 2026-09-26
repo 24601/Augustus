@@ -1,0 +1,15 @@
+test_optimizer_membership_and_actual_updates (__main__.Acceptance.test_optimizer_membership_and_actual_updates) ... /usr/local/lib/python3.11/site-packages/torch/_subclasses/functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+ok
+test_soft_target_objective_gradient_and_fit (__main__.Acceptance.test_soft_target_objective_gradient_and_fit) ... ok
+test_calibration_and_fresh_process_actions (__main__.Acceptance.test_calibration_and_fresh_process_actions) ... ok
+test_required_calibration_refuses_missing_and_invalid (__main__.Acceptance.test_required_calibration_refuses_missing_and_invalid) ... ok
+test_attainable_thresholds_against_exhaustive_policy_oracle (__main__.Acceptance.test_attainable_thresholds_against_exhaustive_policy_oracle) ... ok
+test_authoritative_mapping_and_recovery_without_training (__main__.Acceptance.test_authoritative_mapping_and_recovery_without_training) ... ok
+test_correct_training_unchanged (__main__.Acceptance.test_correct_training_unchanged) ... ok
+test_correct_routing_unchanged (__main__.Acceptance.test_correct_routing_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.758s
+
+OK

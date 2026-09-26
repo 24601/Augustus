@@ -1,0 +1,95 @@
+/tmp/qa081-application/venv/lib/python3.11/site-packages/torch/_subclasses/functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+test_optimizer_updates_and_freezes (__main__.TrainingContract.test_optimizer_updates_and_freezes) ... 
+  test_optimizer_updates_and_freezes (__main__.TrainingContract.test_optimizer_updates_and_freezes) (module='training', tune=True) ... FAIL
+  test_optimizer_updates_and_freezes (__main__.TrainingContract.test_optimizer_updates_and_freezes) (module='training', tune=True) ... FAIL
+test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) ... 
+  test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.3, tune=False) ... FAIL
+  test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.3, tune=True) ... FAIL
+  test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.73, tune=False) ... FAIL
+  test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.73, tune=True) ... FAIL
+test_soft_loss_value_and_actual_gradient (__main__.TrainingContract.test_soft_loss_value_and_actual_gradient) ... 
+  test_soft_loss_value_and_actual_gradient (__main__.TrainingContract.test_soft_loss_value_and_actual_gradient) (module='training') ... FAIL
+
+======================================================================
+FAIL: test_optimizer_updates_and_freezes (__main__.TrainingContract.test_optimizer_updates_and_freezes) (module='training', tune=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-training/test_contract.py", line 40, in test_optimizer_updates_and_freezes
+    self.assertGreater(delta, 0, name)
+AssertionError: 0.0 not greater than 0 : encoder.weight
+
+======================================================================
+FAIL: test_optimizer_updates_and_freezes (__main__.TrainingContract.test_optimizer_updates_and_freezes) (module='training', tune=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-training/test_contract.py", line 40, in test_optimizer_updates_and_freezes
+    self.assertGreater(delta, 0, name)
+AssertionError: 0.0 not greater than 0 : encoder.weight
+
+======================================================================
+FAIL: test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.3, tune=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-training/test_contract.py", line 87, in test_real_model_converges_to_soft_targets
+    self.assertAlmostEqual(probability, target, delta=1e-5)
+AssertionError: 0.005443827363630739 != 0.3 within 1e-05 delta (0.29455617263636924 difference)
+
+======================================================================
+FAIL: test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.3, tune=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-training/test_contract.py", line 87, in test_real_model_converges_to_soft_targets
+    self.assertAlmostEqual(probability, target, delta=1e-5)
+AssertionError: 0.005443827363630739 != 0.3 within 1e-05 delta (0.29455617263636924 difference)
+
+======================================================================
+FAIL: test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.73, tune=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-training/test_contract.py", line 87, in test_real_model_converges_to_soft_targets
+    self.assertAlmostEqual(probability, target, delta=1e-5)
+AssertionError: 0.9946469741119957 != 0.73 within 1e-05 delta (0.26464697411199567 difference)
+
+======================================================================
+FAIL: test_real_model_converges_to_soft_targets (__main__.TrainingContract.test_real_model_converges_to_soft_targets) (module='training', target=0.73, tune=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-training/test_contract.py", line 87, in test_real_model_converges_to_soft_targets
+    self.assertAlmostEqual(probability, target, delta=1e-5)
+AssertionError: 0.9946469741119957 != 0.73 within 1e-05 delta (0.26464697411199567 difference)
+
+======================================================================
+FAIL: test_soft_loss_value_and_actual_gradient (__main__.TrainingContract.test_soft_loss_value_and_actual_gradient) (module='training')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/workspace/repo/qa-training/test_contract.py", line 63, in test_soft_loss_value_and_actual_gradient
+    torch.testing.assert_close(logits.grad, expected_grad, rtol=1e-12, atol=1e-12)
+  File "/tmp/qa081-application/venv/lib/python3.11/site-packages/torch/testing/_comparison.py", line 1689, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 3 / 5 (60.0%)
+Greatest absolute difference: 0.1 at index (1,) (up to 1e-12 allowed)
+Greatest relative difference: inf at index (1,) (up to 1e-12 allowed)
+
+----------------------------------------------------------------------
+Ran 3 tests in 4.961s
+
+FAILED (failures=7)
+training tune True deltas {'encoder.weight': 0.0, 'encoder.bias': 0.0, 'head.weight': 0.05641316670070061, 'head.bias': 0.007110496936775346}
+training tune False deltas {'encoder.weight': 0.0, 'encoder.bias': 0.0, 'head.weight': 0.05520157291668411, 'head.bias': 0.00628739859632077}
+training tune True deltas {'encoder.weight': 0.0, 'encoder.bias': 0.0, 'head.weight': 0.05403219092440721, 'head.bias': 0.005532463326820114}
+training_control tune True deltas {'encoder.weight': 0.004096255845722818, 'encoder.bias': 0.003197418428138532, 'head.weight': 0.03351399540618269, 'head.bias': 0.01955616972989138}
+training_control tune False deltas {'encoder.weight': 0.0, 'encoder.bias': 0.0, 'head.weight': 0.03278705278514962, 'head.bias': 0.018811314155346093}
+training_control tune True deltas {'encoder.weight': 0.002272845008321922, 'encoder.bias': 0.0017568062118728522, 'head.weight': 0.03228927343112181, 'head.bias': 0.01811688308045334}
+training target 0.3 tune False probability 0.005443827363630739 loss 0.005458698988742405
+training target 0.3 tune True probability 0.005443827363630739 loss 0.005458698988742405
+training target 0.73 tune False probability 0.9946469741119957 loss 0.005367404667357786
+training target 0.73 tune True probability 0.9946469741119957 loss 0.005367404667357786
+training_control target 0.3 tune False probability 0.3000000000000002 loss 0.6108643020548935
+training_control target 0.3 tune True probability 0.3000000000000001 loss 0.6108643020548935
+training_control target 0.73 tune False probability 0.7299999999999998 loss 0.5832588401285969
+training_control target 0.73 tune True probability 0.7299999999999998 loss 0.5832588401285969
+training loss 0.3184497651507345 gradient [0.02384058440442351, -0.1, -0.04283300339148828, -0.0035972419924183096, 0.0802624679775096]
+training_control loss 0.4250497651507345 gradient [-0.0021594155955764914, 0.0, -0.0008330033914882851, -0.0035972419924183096, 0.0802624679775096]
