@@ -78,15 +78,15 @@ See [the working skill](.agents/skills/augustus/SKILL.md).
 
 ## Install
 
-Install the published release, 0.8.0 (both skills):
+Install the published release, 0.8.1 (both skills):
 
 ```bash
 # Claude Code
-claude plugin marketplace add 24601/Augustus@v0.8.0
+claude plugin marketplace add 24601/Augustus@v0.8.1
 claude plugin install augustus@augustus
 
 # Codex, Cursor, and other Skills CLI agents
-npx skills add https://github.com/24601/Augustus/tree/v0.8.0 --skill augustus augustus-train
+npx skills add https://github.com/24601/Augustus/tree/v0.8.1 --skill augustus augustus-train
 ```
 
 To follow the default branch, which may contain unreleased `-dev` work, use
@@ -154,10 +154,9 @@ not establish model quality or deployment benefit.
 
 ## Versioning
 
-Published release: **0.8.0**. See the
-[release notes](docs/release-notes-v0.8.0.md) for changes and migration details.
-The default branch carries **0.8.1-dev**, a trainer-validation guidance patch.
-Install from the `v0.8.0` tag for the published revision; default-branch installs
+Published release: **0.8.1**, a trainer-validation guidance patch. See the
+[release notes](docs/release-notes-v0.8.1.md) for changes and evidence limits.
+Install from the `v0.8.1` tag for the published revision; default-branch installs
 can receive later development work.
 
 Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`), rechecked on

@@ -16,9 +16,14 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+## [0.8.1] - 2026-09-26
+
+Patch release: validation guidance and regression coverage; no new model backend
+or weights. TypeSafe skill provenance remains v0.5.7 (`65a39f3`).
+
 ### Fixed
 
-- `0.8.1-dev`: trainer guidance now checks intended optimizer membership and
+- Trainer guidance now checks intended optimizer membership and
   actual learning before expensive fits, and probes custom objectives against
   known targets without imposing these checks on no-training solutions.
 - Calibration/export guidance distinguishes unchanged argmax from changed
@@ -27,6 +32,16 @@ folds: `research/notes.md`.
 - Threshold-only risk/coverage guidance preserves score ties and considers
   nonmonotone selective risk. The existing binary evaluator already handles
   fixed-threshold ties; new regression cases exercise that behavior.
+
+### Verified
+
+- Fresh installed-skill repair journeys exercised real CPU updates, soft-target
+  convergence, fresh-process inference, calibration refusal, tied thresholds and
+  authoritative routing. The coordinator replayed independent acceptance checks.
+  One supposedly correct fixture had an overflow defect; its original failed
+  assertion and independent adjudication are retained in the
+  [QA audit](research/audits/2026-09-26-trainer-081-qa/README.md).
+  This does not establish automatic activation or causal skill benefit.
 
 ### Changed
 
