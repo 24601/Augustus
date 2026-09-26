@@ -31,3 +31,9 @@ For a new problem, start with [mental models](mental-models.md), then
 [judgment class](judgment-class.md). Load further references by the task,
 not by matching every phrase. For builds/improvement, use the
 [execution loop](optimizer-integration.md).
+
+For “assemble our records into training data,” “fit a local classifier,”
+“choose a base model for this label budget,” or “improve our trained router,”
+load the companion `augustus-train` skill. It owns task-specific data assembly,
+fitting, artifact delivery and training climbs; this skill still owns placement
+and system composition. Tone fine-tuning alone activates neither skill.

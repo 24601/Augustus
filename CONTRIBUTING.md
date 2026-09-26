@@ -140,8 +140,9 @@ candidate commit (`git archive <sha> | tar -x -C <tmp>`) and use a temporary
 `CLAUDE_CONFIG_DIR` to add that export as a local marketplace, install
 `augustus@augustus`, and inspect `claude plugin details`. A working-tree
 marketplace also installs ignored files such as `.DS_Store` and `__pycache__/`.
-Expect one skill; no hooks, agents, MCP servers, or LSP servers; and only
-tracked `.agents/` files in the installed directory. Do not change the
+Expect two skills (`augustus` and `augustus-train`); no hooks, agents, MCP
+servers, or LSP servers; and only tracked `.agents/` files in the installed
+directory. Do not change the
 reviewer's normal plugin settings. Local installation does not verify a
 future remote tag; repeat against the exact release candidate before publishing.
 

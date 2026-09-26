@@ -29,7 +29,8 @@ def round_entry(index, delta, rows, **extra):
 
 
 def book(rounds, **extra):
-    return {"schema_version": 1, "config": copy.deepcopy(CONFIG), "rounds": rounds, **extra}
+    return {"schema_version": 1, "config": copy.deepcopy(CONFIG), "rounds": rounds,
+            "confirmation_row_ids": ["held-out-1", "held-out-2"], **extra}
 
 
 class ClimbLedgerTests(unittest.TestCase):
@@ -78,6 +79,38 @@ class ClimbLedgerTests(unittest.TestCase):
         result = ledger.replay(book([round_entry(1, -0.05, ["r1"], config_snapshot=moved)]))
         self.assertEqual(result["terminal_state"], "blocked(ledger_gate_failed)")
         self.assertEqual(result["blocked_by"][0]["gate"], "config_immutable")
+
+    def test_explicit_search_reuse_is_descriptive_and_confirmation_stays_separate(self):
+        document = book([round_entry(1, -0.01, ["r1", "r2"]),
+                         round_entry(2, -0.09, ["r2", "r3"])])
+        document["config"]["search_reuse"] = True
+        self.assertEqual(ledger.replay(document)["terminal_state"], "insufficient_evidence")
+        document.update(frozen_finalists=["candidate-2"], confirmed_candidate="candidate-2")
+        self.assertEqual(ledger.replay(document)["terminal_state"], "promoted_candidate")
+        document["confirmation_row_ids"] = ["held-out-1", "r1"]
+        self.assertEqual(ledger.replay(document)["terminal_state"],
+                         "blocked(confirmation_overlaps_search)")
+
+    def test_promotion_requires_a_run_candidate_and_confirmation_ids(self):
+        document = book([round_entry(1, -0.05, ["r1"])],
+                        frozen_finalists=["candidate-9"], confirmed_candidate="candidate-9")
+        self.assertEqual(ledger.replay(document)["terminal_state"], "blocked(candidate_was_not_run)")
+        document.update(frozen_finalists=["candidate-1"], confirmed_candidate="candidate-1")
+        del document["confirmation_row_ids"]
+        self.assertEqual(ledger.replay(document)["terminal_state"], "blocked(confirmation_rows_missing)")
+
+    def test_duplicate_rows_and_nonboolean_search_reuse_are_rejected(self):
+        with self.assertRaisesRegex(ValueError, "must be unique"):
+            ledger.replay(book([round_entry(1, -0.05, ["r1", "r1"])]))
+        document = book([round_entry(1, -0.05, ["r1"])],
+                        frozen_finalists=["candidate-1"], confirmed_candidate="candidate-1",
+                        confirmation_row_ids=["held-out-1", "held-out-1"])
+        with self.assertRaisesRegex(ValueError, "must be unique"):
+            ledger.replay(document)
+        document = book([])
+        document["config"]["search_reuse"] = "false"
+        with self.assertRaisesRegex(ValueError, "must be a boolean"):
+            ledger.replay(document)
 
     def test_a_failed_probe_is_a_hard_gate(self):
         result = ledger.replay(book([round_entry(1, -0.05, ["r1"],

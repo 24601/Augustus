@@ -68,8 +68,17 @@ class PluginEvalSuiteTests(unittest.TestCase):
                 skill = [grader for grader in graders if grader.get("type") == "tool_used" and grader.get("tool") == "Skill"]
                 self.assertEqual(1, len(skill))
                 pattern = re.compile(skill[0]["input_match"])
-                for call in SKILL_CALLS:
+                trainer = case.name.startswith("trainer_")
+                calls = tuple(call.replace('augustus"', 'augustus-train"')
+                              for call in SKILL_CALLS) if trainer else SKILL_CALLS
+                for call in calls:
                     self.assertRegex(call, pattern)
+                if trainer and trigger:
+                    for call in SKILL_CALLS:
+                        self.assertNotRegex(call, pattern)
+                if trainer and not trigger:
+                    for call in SKILL_CALLS:
+                        self.assertRegex(call, pattern)
                 self.assertNotRegex('{"skill":"other:augustus-notes"}', pattern)
                 bounds = (skill[0].get("min"), skill[0].get("max"), skill[0].get("arm"))
                 if trigger:

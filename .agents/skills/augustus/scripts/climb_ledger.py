@@ -29,8 +29,8 @@ Hard gates, each of which blocks the whole ledger
   measured against a moving evaluator measures nothing.
 - Every round reports its delta against the ORIGINAL anchor, never against the
   previous round, so a chain of small wins cannot drift away from the start.
-- Candidates are challenged on fresh rows. Reusing a previous round's rows is
-  the oldest way to climb a number without improving anything.
+- Challenges use fresh rows by default. An explicit `search_reuse: true` in
+  config allows reusable descriptive search data, never independent evidence.
 - Probes and per-label recall floors are hard gates, not advisory scores.
 - Rounds are bounded, and the bound is declared in the config.
 - Confirmation rows are burned once read.
@@ -38,8 +38,9 @@ Hard gates, each of which blocks the whole ledger
 What this does NOT do
 ---------------------
 It replays what the ledger declares. It runs no model, reads no data, and
-verifies no hash it is given. A supported claim here still needs the
-confirmation helper's bound and the provenance gate's verdict.
+verifies no hash it is given. Promotion requires declared confirmation row IDs
+disjoint from search, but this cannot detect other uses of those rows. A
+supported claim still needs the confirmation helper's bound and provenance.
 """
 
 from __future__ import annotations
@@ -89,6 +90,8 @@ def _config(document):
     rounds_allowed = config.get("max_rounds")
     if type(rounds_allowed) is not int or rounds_allowed < 1:
         raise LedgerError("config max_rounds must be a positive integer fixed in advance")
+    if type(config.get("search_reuse", False)) is not bool:
+        raise LedgerError("config search_reuse must be a boolean")
     budget = config.get("budget")
     if budget is not None:
         _number(budget, "config budget")
@@ -121,6 +124,8 @@ def _rounds(document):
         if not isinstance(rows, list) or not rows:
             raise LedgerError(f"round {index} challenge_row_ids must be a nonempty list")
         parsed["rows"] = [_text(row, f"round {index} challenge row id") for row in rows]
+        if len(set(parsed["rows"])) != len(parsed["rows"]):
+            raise LedgerError(f"round {index} challenge row IDs must be unique")
         probes = entry.get("probes")
         if probes is None:
             probes = {}
@@ -163,7 +168,7 @@ def replay(document) -> dict:
             blocks.append({"round": index, "gate": "split_drift",
                            "detail": {"declared": config["split_hash"], "round": entry["split_hash"]}})
         reused = sorted({row for row in entry["rows"] if row in seen_rows})
-        if reused:
+        if reused and not config.get("search_reuse", False):
             blocks.append({"round": index, "gate": "stale_challenge_rows",
                            "detail": {"reused": reused,
                                       "first_seen_in_round": {row: seen_rows[row] for row in reused}}})
@@ -211,6 +216,16 @@ def replay(document) -> dict:
             return _result("blocked(candidate_was_not_a_frozen_finalist)", rounds, spent=spent,
                            blocks=[{"round": None, "gate": "unfrozen_promotion",
                                     "detail": {"candidate": candidate, "frozen_finalists": finalists}}])
+        if candidate not in {entry["candidate_id"] for entry in rounds}:
+            return _result("blocked(candidate_was_not_run)", rounds, spent=spent)
+        confirmation = document.get("confirmation_row_ids")
+        if not isinstance(confirmation, list) or not confirmation:
+            return _result("blocked(confirmation_rows_missing)", rounds, spent=spent)
+        confirmation = [_text(row, "confirmation row ID") for row in confirmation]
+        if len(set(confirmation)) != len(confirmation):
+            raise LedgerError("confirmation row IDs must be unique")
+        if set(confirmation) & seen_rows.keys():
+            return _result("blocked(confirmation_overlaps_search)", rounds, spent=spent)
         return _result("promoted_candidate", rounds, spent=spent, candidate=candidate)
 
     if not rounds:
@@ -234,6 +249,7 @@ def _result(state, rounds, *, blocks=None, spent=0.0, candidate=None, note=None)
         "best_delta_vs_anchor": min((entry["delta_vs_anchor"] for entry in rounds), default=None),
         "limits": [
             "A replay of declared records. No model runs, no data is read, and no hash here is verified.",
+            "Reusable search rows are descriptive; disjoint declared confirmation IDs do not prove untouched outcomes.",
             "Every delta is against the original anchor by construction; this checks that the ledger says so, not that the number is right.",
             "A supported climb still needs the confirmation helper's bound and the provenance gate's verdict.",
             "`incumbent_retained` is a result, not a failure.",

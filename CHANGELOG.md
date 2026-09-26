@@ -21,8 +21,26 @@ release, and the published `v0.7.2` tag is unchanged.
 
 ### Added
 
+- A companion `augustus-train` skill for task-specific data assembly, method
+  selection, fitting, export/reload and bounded improvement. It guides agent
+  implementation using the application's tools, not a new training platform
+  or a recipe for a general instruction-conditioned Jev engine.
+- Trainer behavioral scenarios covering leakage, ambiguous labels, constrained
+  model selection, cost-sensitive/open-set decisions, no-training outcomes
+  and inference artifact semantics. Scenario definitions are not executed
+  training evidence.
 - `.local/` and `.claude/` are ignored, so local working directories and
   Claude Code session state cannot be committed by accident.
+
+### Fixed
+
+- The climb ledger can explicitly allow reusable descriptive search data while
+  requiring disjoint declared confirmation IDs for a promotion. Unrun candidates
+  and duplicate row IDs cannot support a promotion. This remains a declaration
+  checker, not a model runner, independent evidence verifier or deployment gate.
+- M5 synthesis now distinguishes twelve graded arms, the actual fit counts,
+  serving settings and exploratory/post-confirmation repairs; output proportions
+  are not presented as proof of calibration or threshold causality.
 
 ## [0.7.2] - 2026-09-23
 

@@ -1,72 +1,86 @@
-# Compute envelope: measured, and it does not generalize
+# Budget the actual fit and serving path
 
-What hardware a rung needs has no single answer across artifact forms. These figures are first-party
-measurements from `research/080/receipts/m5-grading-2026-09-25.md` and the source cards beside it,
-on rented Colab cards.
+Use this card before a costly fit or runtime optimization. Its assumption is that
+you can measure a representative small batch; if input length, device or backend
+differs from deployment, report that limitation rather than extrapolating a guarantee.
+CPU methods and no-fit programs often avoid a GPU entirely. No rental or paid call
+is authorized by this guidance.
 
-## Two artifacts, opposite constraints
+## Preflight with an explicit stop
 
-**A fine-tune that outgrows its own preflight.** A LoRA fine-tune printed a 38 GiB requirement and
-used **69 GiB** at its own batch of 48, measured at 71,035 MiB of 81,559 on an H100. It OOMed a 40
-GB A100 before step 1 and OOMed the 80 GB card on the longest task. Gradient accumulation —
-micro-batch 12, accumulation 4, same effective batch, same steps, same examples — brought it to
-**24,457 MiB**. The honest requirement is 24 GiB, not 69 and not the 38 it publishes, and the
-configuration that fits a mid-range card is not the one it ships with.
+Record task/input and option counts, length distribution, precision, trainable
+parameters, batch and accumulation, optimizer, device/runtime versions and data
+residency. Check model/license access, disk, RAM, accelerator memory and artifact
+export before a long run. Execute one real batch and save/reload a checkpoint.
 
-**A server that is indifferent to the card.** A 4B decision model served at batch 1 took **328 ms
-per row on an L4 and 328 ms on an A100** — identical, because one short forward pass with
-single-token option codes is launch-bound rather than FLOP-bound. Merging the LoRA reached 292 ms.
-The lever was concurrency: three unmodified replicas on one GPU scaled near-linearly to 8.2 rows/s.
+Measure startup separately from steady-state fit and inference, then project the
+declared workload with headroom and uncertainty. Set a wall-clock/spend/memory
+stop. Include labeling/teacher calls, evaluation, failed trials, storage and
+fallback—not just the final training job. Check expensive cases such as longest
+inputs and largest candidate lists, not only median examples.
 
-**Conclusion:** measure before renting. A bigger card fixes one of these and does nothing for the
-other.
+On an accelerator, use backend-appropriate placement/profiling evidence and
+process-attributable device memory/work. A capability flag, package installation
+or device-init line does not prove the forward/backward work uses the GPU.
+llama.cpp layer-assignment logs are useful for that backend; they are not a
+universal requirement for every trainer. Synchronize accelerator timing where
+needed. Preserve logs without credentials or private inputs.
 
-## CPU is a rate, not a yes/no
+## Change the bottleneck, then test equivalence to the required tolerance
 
-Same VM, same weights, same prompts, only the device changed: **41.84 rows/s on an L4 against
-0.2592 rows/s on CPU, a factor of 161.** The model does run on CPU, which is what its card says. At
-that rate a 60,000-row pass takes 64 hours. "Runs on CPU" and "is usable on CPU" are different
-claims and only the second needs a number.
+Batching, replicas, caching, precision, adapter merging and runtime changes can
+reduce cost. None is automatically behavior-preserving. Before relying on the
+speedup, declare acceptable numerical drift, action changes, loss and constraint
+regressions relative to the unoptimized path. Probe ordinary and threshold-boundary
+inputs under the realistic batch/length mix. Use exact equality only where the
+contract needs it. A small average score drift can hide a costly action change.
 
-## Defaults that cost more than they save
+Gradient accumulation can preserve nominal effective batch while changing floating
+point order, dropout, batch-dependent layers or optimizer scheduling. Check example
+counts, update counts and the resulting candidate; do not call it identical merely
+because micro-batch × accumulation stayed constant. Reducing examples, steps,
+context or options, changing base weights or precision, and changing sampling
+are recorded recipe/runtime revisions, not invisible rescue operations.
 
-- **`torch.compile`** on one decision engine: 14.30 rows/s against 41.84 without, end to end. About
-  six minutes of inductor work per (batch, length) bucket for roughly 1.4× steady state, plus an
-  OOM at batch 64.
-- **A from-source CUDA build** produced a package with no CUDA backend at all — no
-  `libggml-cuda.so`, every layer on CPU — while the project's **prebuilt CUDA wheel** shipped the
-  backend and put 29 of 29 layers on the device. `--no-binary` guarantees a fresh compile, not a
-  complete one.
-- **An installer that silently reuses a cached build.** Two `uv` installs with `GGML_CUDA=on` left
-  offload false on an image with `nvcc` present; `pip` with `--no-binary --no-cache-dir --no-deps`
-  built it correctly. Same image, same flags, opposite result.
+**Falsifier:** if the measured end-to-end gain disappears with startup/fallback
+included, or exceeds an agreed regression tolerance, reject that optimization.
+An optimization error comparable to the improvement being claimed can invalidate
+the comparison even if average accuracy appears unchanged.
 
-## Inference rates worth budgeting from
+## Historical measurements are starting hypotheses, not requirements
 
-Measured on an L4 unless noted, at the option counts stated:
+**Reported**, not reproduced here: the
+[M5 receipt](https://github.com/24601/Augustus/blob/cd6b904f6af412adb643bdcf6281bfcccb33952b/research/080/receipts/m5-grading-2026-09-25.md)
+and [PAW run notes](https://github.com/24601/Augustus/blob/cd6b904f6af412adb643bdcf6281bfcccb33952b/research/080/sources/paw-rap-2026-09-23.md)
+describe configurations that changed resource cost markedly:
 
-| artifact | 2 options | 77 options |
-| --- | --- | --- |
-| Logistic head on frozen MiniLM | 831–1,411 rows/s | 400 rows/s |
-| Decoder hidden-state readout | 32–67 rows/s | 48 rows/s |
-| GLiNER2 fine-tune | 100–563 rows/s | 26 rows/s |
-| Compiled 0.6B program (llama.cpp, CUDA) | 22–26 rows/s | 19–20 rows/s |
-| 4B decision model, batch 1 | 8–42 rows/s | 2.1 rows/s |
-| Zero-label readout with cyclic shifts | 37–61 rows/s | **0.63 rows/s** |
+- A LoRA fit at batch 48 used about 69 GiB despite a 38 GiB preflight estimate.
+  Micro-batch 12 with accumulation 4 reduced reported use to 24,457 MiB.
+  That is a measured configuration, not a universal 24 GiB requirement.
+- [imajev run notes](https://github.com/24601/Augustus/blob/cd6b904f6af412adb643bdcf6281bfcccb33952b/research/080/sources/imajev-anyjev-2026-09-25.md)
+  report roughly 328 ms per single request on both L4 and A100, whereas three
+  replicas reached about 8.2 rows/s. This suggests concurrency/launch overhead as
+  a bottleneck for that workload; it does not imply larger GPUs never help.
+- AnyJev's 77-option task required four subquestions and 81 prefills per row,
+  around 0.63 rows/s, versus 37–61 rows/s on its binary tasks. Option count and
+  decomposition changed the work. Cyclic shifts gave zero observed flips on the
+  binary probe, not universal invariance on the partitioned multiclass task.
 
-The last row is the price of order-invariance: shifts multiply prefills by the option count, so a
-77-option question costs 81 prefills per row.
+These examples motivate measuring fit and serve separately. They do not predict
+your task's memory, speed, winner or minimum data requirement. Compare candidate
+forms under the same product contract and declared budgets, allowing different
+appropriate methods rather than demanding identical training recipes.
 
-## Rented-runtime discipline
+## Recover without silently changing the experiment
 
-Reclaimed VMs were routine — one thread lost six, at 20 to 65 minutes, regardless of detachment or
-keep-alive. What made losses cost minutes instead of hours:
+Use the host's supported service/job supervision. Persist checkpoints, RNG and
+optimizer state when needed, selected artifact and versioned partial results to
+an approved durable location. Save expensive synthesized data as soon as it exists.
+Resume by run/candidate/input identity, verifying hashes and configuration before
+skipping completed work. Never append new predictions under an old artifact ID.
 
-- write results incrementally, not at the end of a task
-- copy them off the VM every few minutes
-- resume keyed on a row id, so no row runs twice and none is dropped
-- print progress, because a log that only prints on completion cannot tell you how far a dead run got
-- hash artifacts before and after every transfer
-
-An expensive artifact — a fine-tuned program, a set of synthesized examples — should leave the VM
-the moment it exists. Re-seeding a cache from files costs a copy; regenerating it cost 70 minutes.
+Write progress and errors incrementally, deduplicate retries, verify expected IDs
+and count omissions at completion. Record interrupted segments in timing receipts;
+segment throughput is not whole-job wall clock. Test one interruption/reload path
+before relying on it for a long run. Retain the incumbent when compute is exhausted
+before independent acceptance; an unfinished fit is not a trained deployment.

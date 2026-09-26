@@ -96,6 +96,26 @@ its tag. To move a Claude Code install to another tag, run
 For a manual install, copy `.agents/skills/augustus/` with its references and
 scripts; Codex reads user skills from `~/.agents/skills/`.
 
+### Development trainer (0.8.0-dev, not the published release)
+
+The development package includes `augustus-train` alongside `augustus`.
+It guides an agent through task-specific data assembly, candidate selection,
+fitting, export/reload, and bounded improvement under application costs and
+constraints. It is not a pretrained model, a hosted training service, or a
+recipe for reproducing a general instruction-conditioned Jev engine.
+
+Install both development skills with `npx skills add 24601/Augustus --skill
+augustus augustus-train`, or install the default-branch Claude plugin above.
+For a manual installation, copy both skill directories with their resources.
+The trainer uses optional evaluation helpers in the companion skill; training
+dependencies and any compute spend depend on the selected recipe.
+
+> Use augustus-train to turn our labeled support records into a local routing
+> component. Compare feasible methods under our error costs and latency budget,
+> keep ambiguous and out-of-scope cases explicit, and deliver a reloadable
+> artifact with an evaluation. Then run a bounded improvement loop without
+> using the final evaluation data to tune it. Keep the incumbent if it wins.
+
 The skill needs no API key to provide design guidance. Calling Jev or another
 hosted provider is a separate, optional integration with its own credentials
 and costs. Review installed instructions before granting any agent access.

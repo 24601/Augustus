@@ -27,6 +27,12 @@ heads, encoders, constrained autoregressive readouts, rankers, and vision
 scorers. Choose a family by its objective and evidence requirements.
 This is an independent skill, not a TypeSafe product.
 
+For assembling training data, fitting a task-specific model, compiling a
+decision function, or improving a trained artifact, load the companion
+`augustus-train` skill. Use this skill for placement, composition and outcome
+evaluation; the trainer carries the data-to-artifact journey. Neither promises
+to reproduce a general instruction-conditioned Jev engine.
+
 ## Working protocol
 
 1. Start with the desired behavior, available evidence, action costs, and

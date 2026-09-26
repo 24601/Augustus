@@ -1,10 +1,15 @@
 # Spec defects that look like modelling results
 
-Every defect here was found by grading real arms, and each one punished the arms that **read the
-spec** while sparing the arms that **learn from fit examples**. That asymmetry is why they matter:
-they sit directly across the comparison a rung ladder is meant to make.
+Use these checks at the label/model/evaluator boundary before fitting. The examples
+are **Reported** findings in the
+[M5 receipt](https://github.com/24601/Augustus/blob/cd6b904f6af412adb643bdcf6281bfcccb33952b/research/080/receipts/m5-grading-2026-09-25.md),
+not a reproduction by this skill. Some defects particularly harmed spec-reading
+arms while sparing fit-based arms; that is an unfair comparison, not model quality.
 
-Source: `research/080/receipts/m5-grading-2026-09-25.md`.
+Test the fixes on independently hand-scored examples. A purely fixed-label head
+does not need an instruction prompt, but still needs a correct label/policy map.
+If the target or scorer changes, invalidate affected claims and re-evaluate rather
+than disguising the repair as a better model.
 
 ## The answer vocabulary is not the stored label
 
@@ -14,9 +19,11 @@ The spec said the options were `toxic` and `not toxic`. The stored labels were `
 scorer built its label set from stored values, so a compiled program that obeyed its instructions
 was graded 60,000 invalid outputs out of 60,000.
 
-**Fix:** declare the surface once — a map from stored value to the spec's wording — render both
-sides through it, and accept either spelling when matching. Verify it is a relabelling by checking
-that every fit-based arm's score is unchanged; if one moves, the map is wrong.
+**Fix:** declare a one-to-one map from stored value to canonical output, including
+polarity, and only the intentional aliases. Render prompts and evaluation through
+the same contract. Reject collisions or unknown values instead of fuzzy-matching
+them after seeing scores. Verify a pure relabeling leaves decisions and costs
+unchanged; independently test positive, negative, abstain and invalid cases.
 
 ## The spec describes a different task than the labels encode
 
@@ -44,16 +51,21 @@ right, and one that called it wrongly paid 0.3 instead of 1.0.
 **Symptom:** a generative or compiled artifact invents plausible label-shaped strings.
 
 "One of the 77 BANKING77 intent labels" is resolvable by a person and not by a compiled program
-that sees a handful of worked examples inside a token budget. It produced 1,749 distinct strings
-over 6,000 rows, none of which the spec had listed.
+that sees a handful of worked examples inside a token budget. The recorded runs
+produced many plausible strings outside the true taxonomy; the spec had not
+provided the complete output vocabulary.
 
 **Fix:** write every allowed answer into the spec verbatim, and rewrite worked examples into the
-same wording so nothing is shown two spellings of one answer. Measured cost of doing so: none — a
-77-line option list still left all 24 examples inside a 5,120-token prompt.
+same wording so nothing is shown two spellings of one answer. In the reported
+configuration, a 77-line option list still left all 24 examples inside a 5,120-token
+prompt. Fitting the prompt budget does not establish zero serving cost.
 
-**Measured limit:** enumeration halved the problem and did not solve it. A fine-tune on 4,800
-teacher examples halved it again. The artifact still emitted 862 distinct strings and was invalid
-on 34.5% of rows. Two independent fixes, each worth about half.
+**Reported limit:** enumeration did not solve invalid output. The later fine-tuned
+artifact still emitted 862 distinct strings and was invalid on 34.5% of rows.
+Distinct output strings and row-level invalid rate are different denominators;
+do not describe both interventions as “halving the problem.” Explicit vocabulary
+plus constrained decoding/validation is a candidate fix, to be tested on the
+actual runtime rather than assumed from the prompt.
 
 ## A counter that contradicts its own rule
 
@@ -63,9 +75,9 @@ on 34.5% of rows. Two independent fixes, each worth about half.
 on every task with no abstain label, for every unmatched output. It printed an abstention rate of
 1.0 for an arm that had abstained zero times.
 
-**Fix:** guard the comparison. More generally: when a counter and a rule disagree, report the one
-that matches the rule and fix the counter afterwards, rather than reporting the number the file
-happened to compute.
+**Fix:** guard the comparison and test invalid output with and without a declared
+abstain label. Correct the counter and rerun the affected report, preserving the
+old report as superseded evidence. Never present a known-bad counter as a result.
 
 ## A flag whose name inverts its meaning
 
@@ -74,8 +86,10 @@ happened to compute.
 The field computed `lower_bound > margin` on a difference of **costs**, so it fired exactly when the
 arm was worse. One arm carried it while costing 0.69 more than the comparator.
 
-**Fix:** name a flag after what it computes. Rename, never recompute, and leave stored reports with
-the value they produced.
+**Fix:** declare the subtraction direction and test wins, losses and margin
+equality by hand. If renaming a historical flag, preserve its original arithmetic
+and explain the correction. For a new acceptance decision, compute the correct
+bound and comparator; preserving history does not require preserving a bug.
 
 ## The teacher's distribution is the training distribution
 
@@ -90,3 +104,28 @@ it from its training data.
 scored. Malformed-output rate belongs in the same measurement: one spec produced a 0.661 discard
 rate where two others produced almost none, because a single dropped quote makes a whole response
 contribute zero examples instead of eight.
+
+## Read the experimental lessons at their actual scope
+
+- The receipt eventually covers **twelve** graded arms: A1, A2a, A2b, R1, R2a,
+  R2b, R3a, R4-gliner2, AnyJev L0, imajev, Lumma-Fev and decider. Its “ten arms”
+  summary is stale. Exploratory additions do not inherit the registered family.
+- R3a consumed the bundle's **2,000** fit examples: see the
+  [export cap](https://github.com/24601/Augustus/blob/cd6b904f6af412adb643bdcf6281bfcccb33952b/research/080/exp/m5_export.py)
+  and [R3a data path](https://github.com/24601/Augustus/blob/cd6b904f6af412adb643bdcf6281bfcccb33952b/research/080/exp/m5_fit.py).
+  The 1,600-row fit describes R4-gliner2, not R3a. R3a lost T2a to R2a's
+  frozen-encoder head (mean costs 0.1488 versus 0.1177); there is no universal
+  winning artifact family or mandatory escalation order.
+- imajev's 11% T2a order flip was measured at **rotations 1**, not its default 4,
+  as the [source run notes](https://github.com/24601/Augustus/blob/cd6b904f6af412adb643bdcf6281bfcccb33952b/research/080/sources/imajev-anyjev-2026-09-25.md)
+  specify. Test the configuration actually served, preserving option identity
+  across permutations. AnyJev's binary zero flips do not extend to its partitioned
+  77-option run, where changing partitions also changes the question.
+- Emitted class proportions, accuracy and loss moving together suggest an
+  operating-point investigation; they do not isolate threshold causality from
+  representation, data or model differences. Freeze scores and vary policy on
+  development data to test that hypothesis. Matching prevalence is not calibration.
+- Increasing confidence with correctness is a discrimination observation, not
+  reliability evidence. For calibration, compare probabilities of the same stated
+  event with empirical event rates on representative independent labels, with
+  counts and uncertainty. Chosen-class confidence is not positive-class probability.

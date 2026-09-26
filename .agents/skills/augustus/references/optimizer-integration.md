@@ -107,6 +107,24 @@ Optional `excluded_units` (nonnegative integer) and `missing_outcome_policy`
 Summaries cover supplied pairs only. These fields do not correct selection bias
 or establish the confirmation assumptions.
 
+### Record a climb without mistaking the record for evidence
+
+The optional `scripts/climb_ledger.py` in this skill replays a JSON record; it
+does not run candidates, verify supplied hashes, or establish that a reported
+confirmation succeeded. Run the models and paired comparison first, and keep
+their actual outputs alongside the ledger. Its `promoted_candidate` state is
+a consistency check on declared records, not deployment authority.
+
+The ledger defaults to fresh challenge IDs per round. For ordinary reusable
+development/search sets, declare `search_reuse: true` in its immutable config;
+all search comparisons remain descriptive. A declared promotion must name a
+candidate actually run and frozen, and supply unique `confirmation_row_ids`
+disjoint from every search round. Those IDs do not establish isolation from
+training, calibration, earlier experiments, or external access: check those
+sources too. Reusing search data is legitimate; rebranding it as untouched
+confirmation is not. Use an existing experiment tracker instead when it
+already preserves these distinctions.
+
 ## Judgment: what these optimizers may climb (Hypothesis)
 
 An optimizer may search:

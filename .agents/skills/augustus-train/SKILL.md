@@ -1,140 +1,128 @@
 ---
 name: augustus-train
-description: "Trains, fits, or compiles a small decision model for a bounded decision, and reports whether it was worth it. Use when choosing a rung (zero-shot, few-shot, fitted head, fine-tune, compiled program), sizing a fit to a label budget, running on rented or local GPUs, or deciding whether a trained artifact beats the free baseline. Companion to the augustus skill, which covers placement and evaluation."
+description: "Builds and improves task-specific decision artifacts from application requirements and labeled records. Use for data assembly, primitive and base-model selection, fitting, export/reload, inference policy, or bounded data/model/program improvement. Includes rules and no-training outcomes; does not require a rung ladder or training a general Jev."
 license: MIT
 metadata:
   version: 0.8.0-dev
-  evidence: "research/080/receipts/m5-grading-2026-09-25.md — ten arms on three real-text tasks"
 ---
 
 # Augustus Train
 
-Build the cheapest artifact that meets a bounded decision's policy, and prove it beats doing
-nothing. The companion `augustus` skill decides *whether* a decision model belongs somewhere; this one
-builds it.
+Deliver a runnable task specialist and its evidence, or retain a better incumbent.
+The artifact may be a rule, classifier, ranker, regressor, adapted encoder,
+prompted decision, or compiled program. Fit only what the application needs.
+Load the companion `augustus` skill for placement and composition;
+this skill carries the chosen component from messy records into inference.
 
-Every number in this skill was measured on three real-text tasks in one experiment
-(`research/080/receipts/m5-grading-2026-09-25.md`), not taken from a vendor.
+## Start from the application, not a training recipe
 
-## The rung ladder, sized by labels you actually have
+Write a short executable contract in the application's own files:
 
-| Labels available | Rung | What it costs |
+- **Decision:** input available at decision time, unit of work, target and label
+  vocabulary, output meaning, and downstream action. Separate exact computation,
+  bounded judgment, and freeform generation. A multi-step application can contain
+  several bounded components; test the complete path as well as each component.
+- **Policy:** action costs or useful outcome metric, hard constraints, ambiguity,
+  missing evidence, invalid output, timeout, abstention/fallback, and authority.
+  Define tie rules and unknown/no-match separately from a real class.
+- **Acceptance:** incumbent, minimum useful change or non-inferiority margin,
+  critical slices, deployment latency/memory, available labels and compute,
+  maximum trials/spend, and an outcome that would reject this candidate.
+
+An exact rule may finish the task immediately. Small data may justify a bounded
+prototype without a generalization guarantee. Missing labels do not justify
+fabricating gold. Do not require every task to train, call a zero-shot model,
+calibrate, or visit every artifact family before making progress.
+
+## Choose a primitive and a small candidate set
+
+| Required behavior | Candidate primitive and base stock | Fit or adapt when useful |
 | --- | --- | --- |
-| none | Zero-shot readout over label names | Nothing to fit, and see the warning below |
-| none, and order matters | Zero-label de-biasing (cyclic option shifts) | Multiplies inference by the option count |
-| 8–64 per class | Few-shot contrastive fit (SetFit) | Minutes on a small GPU |
-| a few hundred to a few thousand | Small encoder fine-tune, or a head over a frozen encoder | 87 s to 8 min at 1,600 rows |
-| a few thousand or more | Larger encoder fine-tune | Hours |
-| a written rule you can state | Hand-written deterministic program | Free, and competitive on binary decisions |
+| Exact eligibility, arithmetic, fixed vocabulary mapping | Ordinary code, parser, lookup | No model; test boundary and failure cases |
+| Stable categorical field in text or records | Sparse features, frozen domain encoder, tabular classifier | Regularized head; SetFit/encoder adaptation if representation is the bottleneck |
+| Choice from a changing candidate set | Instruction-conditioned decision model or pair/cross-encoder | Few-shot criteria, readout/head adaptation; test candidate coverage and option order |
+| Ordered rating or quantity | Ordinal classifier or regressor with defined target/units | Ordinal loss or regression; do not reinterpret a normalized score as a physical quantity |
+| Select or order items for a query | Retriever plus pointwise/pairwise/listwise ranker | Query-grouped relevance labels; evaluate retrieval recall and ranking separately |
+| Visual/audio evidence | Modality-appropriate encoder and head | Freeze then adapt only if task evidence supports it; text proxies may omit the signal |
+| Stable semantic rule with local high-volume serving | Small instruction model, adapter or compiled program | SFT/distillation with permitted targets; validate emitted vocabulary and runtime |
 
-**Climb only when the rung below fails a measurement, never because the next one sounds stronger.**
-A contrastive fit on 1,600 rows beat a compiled program, a fine-tuned program, a hand-written
-program and three readouts on the tasks measured. A 98-second encoder fine-tune could not be
-separated from it on one task after 4,500 seconds of the alternative.
+Use compatible stock already available: pin identity/revision, tokenizer or
+preprocessor, feature layer/pooling, modality, language/domain, context limits,
+license and training lineage. Check that deployment can run the artifact before
+fitting. A larger base may help, but adds memory, latency and provenance costs.
+Choose only candidates justified by the task and budget, not by a label-count ladder.
 
-## Start with the two free baselines. Report both. Always.
+**A task specialist is not a general instruction-conditioned Jev.** A fixed-label
+classifier can expose a Choice-shaped response without understanding arbitrary
+new criteria/options. Generalization across tasks requires a task-diverse training
+mixture and held-out tasks, not merely new rows of one taxonomy. Choice, Score and
+Noul describe interfaces; they do not supply a training objective or guarantee
+calibration. Record whether each value is an event probability estimate, logit,
+relative score, ordinal level or quantity. Shape alone supplies none of those meanings.
 
-1. **The constant.** Answer the majority class for every row and compute its cost.
-2. **Zero-shot.** Score the untrained model that reads your label names, on the same held-out rows.
+For a binary predicate, define the positive event and missing-evidence behavior.
+For categorical Choice, bind scores to option identities, including open-set cases.
+For an ordered Score, define level meanings and preserve the distribution when
+needed; an expected level index is not automatically cardinal utility or a unit.
 
-Do not skip these because they seem weak. On two binary tasks, **zero-shot scored 0.645 and 0.358
-against constants of 0.945 and 0.918** — the free option was worse than answering the same thing
-every time. On a 77-way task the same zero-shot reached 0.695 against a 0.022 constant. A rung that
-does not report what the free options already got cannot claim it was necessary.
+## Build and exercise the whole path
 
-## The four measurements that decide whether a rung is real
+1. **Assemble data.** Follow [data and splits](references/data-and-splits.md):
+   audit raw records, define/adjudicate labels, resolve groups and timestamps,
+   preserve unknowns and lineage, then freeze representative data roles.
+2. **Make the evaluator executable first.** Test labels, polarity, aliases,
+   abstention and loss on hand-calculated cases; use
+   [spec defects](references/spec-defects.md) when model and spec disagree.
+   Keep the incumbent runnable. A cost-optimal constant, existing rules or current
+   workflow is often the useful comparator; a compatible zero/few-shot model is
+   optional. Majority class is not always the cheapest constant under unequal costs.
+3. **Fit a bounded candidate.** Use [fit and serve](references/fit-and-serve.md)
+   for a CPU example and family-specific adaptation steps. Fit transformations
+   only on training data, tune on development data, record every tried version,
+   and smoke-test the inference seam before a long fit.
+4. **Select policy where needed.** Inspect discrimination and task loss, critical
+   class recall, errors, fallback and total serving cost. Calibrate only if the
+   consumer needs probability meaning or a calibration defect warrants it.
+   Choose thresholds on development/policy data, then freeze them. Predicted class
+   proportions alone establish neither miscalibration nor threshold causality.
+5. **Export, reload and replay.** Save the entire preprocessor/model/label/policy
+   bundle and environment. Reload in a fresh process without fit data. Test normal,
+   ambiguous, empty, long, invalid and shifted inputs plus action-boundary cases.
+   Compare outputs and end-to-end actions under prespecified tolerances, not a
+   universal demand for bitwise identity. Measure the actual deployment path.
+6. **Improve and confirm.** Follow [bounded improvement](references/improve-and-confirm.md).
+   Use development errors to choose the next data, model or program change.
+   Search data may be reused descriptively; independent confirmation stays outside
+   candidate selection. Stop on acceptance, budget, no useful progress or missing
+   authority. An unsupported improvement leaves the incumbent active.
 
-Run all four. Each one caught a failure that accuracy alone did not.
+## Match measurements to the claim
 
-### 1. Cost under the real matrix, not accuracy
+Report task loss and the applicable failure modes rather than filling every row
+of a universal checklist. Probability consumers need reliability evidence;
+option readers need permutation tests mapped back to option identities; rankers
+need query-level evaluation; classifiers need per-class and rare-case errors.
+All serving paths need resource/failure measurements relevant to their contract.
 
-Score with the decision's own costs. Where a false negative costs four times a false positive, an
-arm that is **more accurate can cost more**: measured costs fell monotonically as arms called the
-rare class more often, while their accuracy ran the other way. If your matrix is asymmetric and no
-arm chose a threshold, the ranking you are looking at is mostly operating points.
+Use [compute envelope](references/compute-envelope.md) before any expensive run.
+No new rental, paid model call, upload or production activation follows merely
+from loading this skill. Reuse authorized local resources and existing tooling.
+Measure bottlenecks before buying capacity; uncertain projections are not promises.
 
-### 2. Base rate of the class the cost matrix cares about
+The companion scripts perform narrow checks, not training or autonomous search.
+Use only those needed: binary probability evaluation, paired outcome comparison,
+declared provenance, overlap audit, or ledger replay. Their exact inputs and limits
+are wired in the references above; do not copy research benchmark drivers into the app.
+For the commands, set `AUGUSTUS` to the absolute companion directory reported by
+the skill loader (in this checkout, `.agents/skills/augustus`), not this skill's path.
 
-Emit rate against true rate, per class. Six artifact forms missed one 5.8% base rate in six
-directions, from 2.3% to 91.7%. **Stating the base rate in the prompt does not make a model honour
-it.** If the rare class is the expensive one, fix the operating point with a threshold rather than
-hoping the fit learned it.
+## Finish with a usable result
 
-### 3. Option-order sensitivity
-
-Run 300 rows, reverse the option list, count changed answers. Anything that reads its options is
-suspect: measured flip rates ran to 0.25 on a two-option question, and one model changed 11% of
-answers at the setting its vendor ships to hide the effect. Fitting collapses it — a GLiNER2 model
-went 0.110 to 0.027 on a 77-way task and 0.203 to 0.000 on a binary one. **A zero-shot number from
-an option-reading model is not a stable quantity.**
-
-### 4. Calibration against the priced class
-
-If the artifact emits a probability, bucket it against correctness *and* against the expensive
-class. A measured confidence rose monotonically with correctness, 0.77 to 0.94, while **every call
-of the rare class sat in its two lowest buckets** — a score that orders the easy majority perfectly
-and says nothing about what the matrix prices. Ranking correctness is not calibration.
-
-## Write the spec so an artifact can obey it
-
-- **Enumerate the options verbatim.** "One of the 77 intent labels" is a reference a person looks up
-  and a compiled artifact cannot. Enumerating them cut invented outputs from 1,749 distinct strings
-  to 1,477 and turned the rest into real label names, and it cost nothing — the 77-line list still
-  left all 24 worked examples inside a 5,120-token budget.
-- **Say the answers in one vocabulary.** If stored labels are `0`/`1` and the spec says
-  `toxic`/`not toxic`, an artifact that obeys the spec scores zero. Declare the mapping once, render
-  both sides through it, and accept both spellings when grading.
-- **Do not let an abstain option collide with a real class.** Pricing a correct answer as a refusal
-  is a scoring bug that looks like a modelling result.
-- **Check the spec describes the task the labels encode.** A spec asking for one of 150 intents,
-  against labels that are binary, means every spec-reading arm answered a question nobody scored.
-- **Some artifacts do worse with more instruction.** One model's own documentation reports a
-  paragraph of rules scoring 0.24 against 0.67 for a single sentence. Read the artifact's
-  documentation before pasting your whole spec into it, and record what you sent.
-
-See [reference/spec-defects.md](references/spec-defects.md) for the full list with the symptoms each
-one produces.
-
-## Before you trust any GPU number
-
-The three-step verification, each step added after the previous one lied:
-
-1. The install log is not evidence — both `pip` and `uv` buffer a wheel build.
-2. A capability flag and a device-init line are not evidence. A package can report CUDA support,
-   enumerate the device, and run every layer on CPU.
-3. **The proof is the layer assignment line plus a memory delta attributable to your process.**
-   `load_tensors: layer N assigned to device CUDA0`, and your PID holding memory in `nvidia-smi`.
-
-Getting this wrong raises no error. It finishes on CPU at a fortieth of the speed while a rented
-card bills by the hour.
-
-## When a run looks too expensive, measure the configuration before cutting the recipe
-
-Four projections in one day collapsed once the serving path changed, with the recipe untouched:
-17 hours to 58 minutes, 7.6 hours to 17 minutes, 8 hours to 42 minutes, and an unbatched teacher
-from 29 to 442 examples a minute. **A rung that looks unaffordable is usually a claim about the
-configuration measured.**
-
-Legitimate serving changes, which alter no number the recipe states: batching, gradient
-accumulation that preserves the effective batch, replica concurrency, a different installer, a
-different card. Recipe changes, which must be recorded as a different arm: fewer examples, fewer
-steps, a smaller effective batch, a shorter option list, a different model.
-
-**An optimization whose error is the size of the effect is not an optimization.** A 4× batched path
-was measured, found to disagree with the reference path on 4 of 300 rows — the same order as the
-flip rate it was being used to measure — and discarded. Verify a speedup returns identical answers
-before relying on it.
-
-[reference/compute-envelope.md](references/compute-envelope.md) has the measured hardware figures,
-including the two that point opposite ways.
-
-## Report
-
-State, for every arm: cost under the real matrix, accuracy, invalid-output rate, abstention rate,
-emitted rate of the expensive class, option-order flip rate, training wall clock, and the two free
-baselines. Name the hardware. If an artifact's training corpus includes your evaluation corpus, say
-so on the row and run it anyway — a labelled contaminated row answers "is this whole ladder in the
-right range", which nothing else does.
-
-If you add an arm after seeing the others' scores, its interval is exploratory and carries no
-pre-registered guarantee. Say that on the row rather than adjusting the multiplicity afterwards.
+Deliver the fit and inference commands, versioned artifact and policy, data/split
+and source identities, evaluator and representative receipts, rejected trials,
+resource cost, and acceptance decision. State whether evidence is fixture,
+proxy, adjudicated or observed, and distinguish exploratory from confirmed results.
+Keep known-overlap benchmark rows as labeled diagnostics when useful, not clean
+generalization evidence. Package-only is not deployed. For authorized promotion,
+exercise the application journey, observe independent outcomes and preserve rollback;
+otherwise return the runnable candidate with the incumbent retained.
