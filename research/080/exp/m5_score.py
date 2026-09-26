@@ -238,7 +238,12 @@ def main(argv=None) -> int:
                 block["arms"][arm]["vs_comparator"] = {
                     **interval,
                     "non_inferior": interval["upper"] < MARGIN,
-                    "superior_by_margin": interval["lower"] > MARGIN,
+                    # The difference is arm minus comparator and these are costs, so a lower
+                    # bound above the margin means the ARM IS WORSE. The old name for this field
+                    # was `superior_by_margin`, which reads as the opposite of what it computes:
+                    # A2a on T2a carried `superior_by_margin: true` while costing 0.69 more than
+                    # R3a. Renamed, not recomputed — the arithmetic is untouched.
+                    "costlier_than_comparator_by_margin": interval["lower"] > MARGIN,
                     "required_n": needed,
                     "powered": needed is not None and needed <= interval["n"],
                 }
