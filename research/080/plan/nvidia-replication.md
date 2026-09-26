@@ -133,3 +133,25 @@ This is also why the transfer to the Mac is a *copy of a checked artifact* rathe
 the staging tree. `basit` is uid 1000 and in neither `augexp` nor `augctl`, so `/srv/aug/stage` and
 `/srv/aug/ctl` are unreadable to him over ssh — the boundary working as designed. The bundle
 crosses because it was built to cross, not because the boundary was relaxed.
+
+## The instrument was under-documented, and a replication is how we found out
+
+2026-09-26. Building the E1 export bundle surfaced a gap nobody had noticed while running E1 itself:
+the fit receipt records the encoder revision, batch size, max length and the fitted temperatures,
+and records **nothing about the head's optimization**. Asked to name the logistic `C` and solver,
+the export principal correctly answered "not recorded" rather than guessing.
+
+They do not exist. The head is not scikit-learn. `research/080/exp/e1_fit.py` line 89 is plain
+logistic regression by full-batch Adam — zero-initialized `w` and `b`, BCE-with-logits, mean
+reduction, optional per-example weights, `epochs=200`, `lr=0.1`, `seed=80_201`, **no regularization
+term of any kind**. The temperature at line 112 is a scalar with no intercept, 300 epochs at lr 0.05.
+
+**A replicator reading "C: not recorded" would reasonably reach for sklearn's default of 1.0 and fit
+a regularized head.** The numbers would look plausible, the conclusions might even match, and the
+instrument would be a different one. That is the failure mode a replication exists to catch, and it
+was caught before a single row was embedded — by someone refusing to supply a value they could not
+source, rather than by a disagreement discovered afterwards.
+
+The bundle note now carries epochs, lr, init, seed, the script path, its ref and its file sha256.
+The lesson generalizes past E1: **a receipt that records fitted outputs but not the procedure that
+produced them is not a reproducible instrument**, however precisely it states its temperatures.
