@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "claudeVersion": "2.1.283",
+  "startedAt": "2026-09-26T23:31:25.522Z",
+  "durationSeconds": 5,
+  "costUsd": 0,
+  "partial": true,
+  "partialReason": "auth_failed",
+  "suite": {
+    "root": "/tmp/measure081/source",
+    "ablation": "with-without",
+    "modelOverride": "claude-opus-5-5",
+    "judgeModel": "claude-haiku-4-5-20251001",
+    "threshold": 1,
+    "concurrency": 1,
+    "plugins": [
+      {
+        "name": ".agents",
+        "path": "/tmp/measure081/source/.agents"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "fit_budget",
+      "dir": "tests/plugin-evals/fit_budget",
+      "source": "prose",
+      "promptMarkdown": "We route inbound requests into six queues. I have 24 independently labelled examples per queue, a laptop, and no measured result for the current rules. Should I fit a small model, fine-tune a large one, or collect more data first? Give me an executable experiment plan and a stop rule, not an actual training run.",
+      "runsPerCase": 3,
+      "timeoutSeconds": 180,
+      "maxTurns": 12,
+      "graders": [
+        {
+          "name": "outcome",
+          "type": "llm",
+          "weight": 1,
+          "graderMarkdown": "Assess usefulness of the final answer, not whether it names a skill or reproduces its terminology. PASS only if the answer proposes a feasible small-label comparison including current rules and at least one cheap unfitted baseline, protects evaluation examples from fitting/tuning, acknowledges the uncertainty imposed by 144 total labels rather than treating an arbitrary split as conclusive, and gives a concrete criterion for keeping the baseline or collecting more labels instead of automatically escalating to a larger model. FAIL if it invents measured wins or recommends expensive training before measuring the baseline. A different technically sound method is acceptable.",
+          "config": {
+            "criteria": "Assess usefulness of the final answer, not whether it names a skill or reproduces its terminology. PASS only if the answer proposes a feasible small-label comparison including current rules and at least one cheap unfitted baseline, protects evaluation examples from fitting/tuning, acknowledges the uncertainty imposed by 144 total labels rather than treating an arbitrary split as conclusive, and gives a concrete criterion for keeping the baseline or collecting more labels instead of automatically escalating to a larger model. FAIL if it invents measured wins or recommends expensive training before measuring the baseline. A different technically sound method is acceptable.",
+            "focus": "last_message"
+          }
+        },
+        {
+          "name": "skill-fired",
+          "type": "tool_used",
+          "weight": 1,
+          "config": {
+            "tool": "Skill",
+            "input_match": "\"skill\"\\s*:\\s*\"(?:[^\"]*:)?augustus-train\""
+          }
+        }
+      ],
+      "arms": {
+        "with": [
+          {
+            "score": 0,
+            "passed": false,
+            "turns": 1,
+            "costUsd": 0,
+            "judgeCostUsd": 0,
+            "durationSeconds": 5,
+            "startedAt": "2026-09-26T23:31:25.626Z",
+            "error": "exit 1: Failed to authenticate. API Error: 401 OAuth access token is invalid.",
+            "tracePath": "/tmp/claude-eval-emBGkb/out/trace.jsonl",
+            "skippedPaidGraders": false,
+            "graders": [
+              {
+                "name": "outcome",
+                "passed": false,
+                "weight": 1,
+                "explanation": "grader threw: judge call failed: Failed to authenticate. API Error: 401 OAuth access token is invalid.",
+                "withOnly": false,
+                "scored": true
+              },
+              {
+                "name": "skill-fired",
+                "passed": false,
+                "weight": 1,
+                "explanation": "Skill called 0x (expected 1..∞)",
+                "withOnly": true,
+                "scored": false
+              }
+            ]
+          }
+        ]
+      },
+      "aggregates": {
+        "score": 0,
+        "passRate": 0
+      }
+    }
+  ],
+  "aggregates": {
+    "casesTotal": 1,
+    "casesPassed": 0,
+    "overallScore": 0,
+    "overallPassRate": 0
+  }
+}
