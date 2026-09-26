@@ -28,6 +28,13 @@ folds: `research/notes.md`.
   nonmonotone selective risk. The existing binary evaluator already handles
   fixed-threshold ties; new regression cases exercise that behavior.
 
+### Changed
+
+- Updated the film embed for the 3:05 cut, which adds a scene on
+  `augustus-train`. The README and homepage point to the new YouTube upload,
+  and the on-page transcript, duration and `VideoObject` metadata match it.
+  Website and README only; the skill packages are unchanged.
+
 ## [0.8.0] - 2026-09-26
 
 Minor release: adds the companion trainer skill without removing the existing

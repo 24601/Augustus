@@ -57,3 +57,18 @@ Gemini 3.8 Flash reviewed screenshots at 1440 light, 1440 dark, 768 light,
 
 The play badge was moved off-centre after screenshots showed a centred
 button covering the poster's title.
+
+## Update, 2026-09-26: 3:05 cut
+
+The embed now points to YouTube `Frm5sVlQNI4`, the cut that adds the
+`augustus-train` scene. The previous upload, `ZC4oge4WsCQ`, is superseded. The
+transcript, the `PT3M5S` duration, the intro copy and the README link follow the
+new cut. The release assets were replaced under the same names.
+
+Re-run checks:
+- `make check`: pass.
+- Pages build and `check_site.py`: pass.
+- 8 of 8 width and theme configurations checked, with no horizontal overflow.
+- Keyboard Enter loads the nocookie iframe for the new ID.
+- With JavaScript disabled, the poster links to the new video.
+- Only same-origin requests on load.
