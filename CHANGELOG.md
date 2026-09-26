@@ -16,8 +16,10 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-The default branch carries the development version `0.8.0-dev`. It is not a
-release, and the published `v0.7.2` tag is unchanged.
+## [0.8.0] - 2026-09-26
+
+Minor release: adds the companion trainer skill without removing the existing
+Augustus entry point. Both skills ship together; historical tags stay unchanged.
 
 ### Added
 

@@ -3,7 +3,7 @@ name: augustus-train
 description: "Builds and improves task-specific decision artifacts from application requirements and labeled records. Use for data assembly, primitive and base-model selection, fitting, export/reload, inference policy, or bounded data/model/program improvement. Includes rules and no-training outcomes; does not require a rung ladder or training a general Jev."
 license: MIT
 metadata:
-  version: 0.8.0-dev
+  version: 0.8.0
 ---
 
 # Augustus Train

@@ -77,36 +77,33 @@ See [the working skill](.agents/skills/augustus/SKILL.md).
 
 ## Install
 
-Install the published release, 0.7.2:
+Install the published release, 0.8.0 (both skills):
 
 ```bash
 # Claude Code
-claude plugin marketplace add 24601/Augustus@v0.7.2
+claude plugin marketplace add 24601/Augustus@v0.8.0
 claude plugin install augustus@augustus
 
 # Codex, Cursor, and other Skills CLI agents
-npx skills add https://github.com/24601/Augustus/tree/v0.7.2/.agents/skills/augustus
+npx skills add https://github.com/24601/Augustus/tree/v0.8.0 --skill augustus augustus-train
 ```
 
 To follow the default branch, which may contain unreleased `-dev` work, use
 `claude plugin marketplace add 24601/Augustus` or
-`npx skills add 24601/Augustus --skill augustus`. A pinned install stays on
+`npx skills add 24601/Augustus --skill augustus augustus-train`. A pinned install stays on
 its tag. To move a Claude Code install to another tag, run
 `claude plugin marketplace remove augustus`, then add and install again.
-For a manual install, copy `.agents/skills/augustus/` with its references and
-scripts; Codex reads user skills from `~/.agents/skills/`.
+For a manual install, copy both directories under `.agents/skills/` with their
+references and scripts; Codex reads user skills from `~/.agents/skills/`.
 
-### Development trainer (0.8.0-dev, not the published release)
+### Train an application-specific decision model
 
-The development package includes `augustus-train` alongside `augustus`.
+The package includes `augustus-train` alongside `augustus`.
 It guides an agent through task-specific data assembly, candidate selection,
 fitting, export/reload, and bounded improvement under application costs and
 constraints. It is not a pretrained model, a hosted training service, or a
 recipe for reproducing a general instruction-conditioned Jev engine.
 
-Install both development skills with `npx skills add 24601/Augustus --skill
-augustus augustus-train`, or install the default-branch Claude plugin above.
-For a manual installation, copy both skill directories with their resources.
 The trainer uses optional evaluation helpers in the companion skill; training
 dependencies and any compute spend depend on the selected recipe.
 
@@ -156,11 +153,10 @@ not establish model quality or deployment benefit.
 
 ## Versioning
 
-Published release: **0.7.2**. See the
-[release notes](docs/release-notes-v0.7.2.md) for changes and migration details.
-The default branch is now **0.8.0-dev**: unreleased work toward a second skill,
-`augustus-train`. Install from the `v0.7.2` tag when you need the published
-revision.
+Published release: **0.8.0**. See the
+[release notes](docs/release-notes-v0.8.0.md) for changes and migration details.
+Install from the `v0.8.0` tag for the published revision; default-branch installs
+can receive later development work.
 
 Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`), rechecked on
 2026-09-23 as that repository's latest tag and HEAD. Read live provider docs

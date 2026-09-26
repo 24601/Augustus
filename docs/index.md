@@ -7,8 +7,8 @@ page_class: home
 
 <section class="opening" aria-labelledby="hero-title">
   <div class="opening-meta">
-    <p class="opening-context">An open-source skill for agents</p>
-    <a class="release-link" href="{{ '/release-notes-v0.7.2.html' | relative_url }}">v0.7.2 <span aria-hidden="true">↗</span></a>
+    <p class="opening-context">Open-source skills for agents</p>
+    <a class="release-link" href="{{ '/release-notes-v0.8.0.html' | relative_url }}">v0.8.0 <span aria-hidden="true">↗</span></a>
   </div>
   <h1 id="hero-title">Decision models,<br class="desktop-break"> put to work.</h1>
   <div class="opening-bottom">
@@ -43,9 +43,9 @@ page_class: home
         and fallback remain explicit.</dd>
     </div>
     <div>
-      <dt>Build an evaluation</dt>
-      <dd>Define the baseline, error costs, held-out cases, and a test that could
-        reject the proposed change.</dd>
+      <dt>Train your own task specialist</dt>
+      <dd>Choose primitives, base models and methods. Assemble data, fit and
+        export a component, and test it against the incumbent.</dd>
     </div>
     <div>
       <dt>Improve a Software 3.0 system</dt>
@@ -72,22 +72,21 @@ page_class: home
   <div class="installation-intro">
     <p class="section-index">/04 — Installation</p>
     <h2 id="install-title">Put it in your agent’s hands.</h2>
-    <p>The skill needs no API key. Calling a hosted model is a separate,
+    <p>Both skills need no API key. Calling a hosted model is a separate,
       optional integration.</p>
-    <p>Current release: <a href="{{ '/release-notes-v0.7.2.html' | relative_url }}">0.7.2</a>.
-      These commands follow the default branch; check the installed version
-      before relying on it.</p>
+    <p>Current release: <a href="{{ '/release-notes-v0.8.0.html' | relative_url }}">0.8.0</a>.
+      These commands install both Augustus and Augustus Train from the release tag.</p>
   </div>
   <div class="install-options">
     <section aria-labelledby="claude-install">
       <h3 id="claude-install">Claude Code</h3>
-<pre tabindex="0" role="region" aria-label="Claude Code installation commands"><code>claude plugin marketplace add 24601/Augustus
+<pre tabindex="0" role="region" aria-label="Claude Code installation commands"><code>claude plugin marketplace add 24601/Augustus@v0.8.0
 
 claude plugin install augustus@augustus</code></pre>
     </section>
     <section aria-labelledby="skills-install">
       <h3 id="skills-install">Other compatible agents</h3>
-<pre tabindex="0" role="region" aria-label="Skills CLI installation command"><code>npx skills add 24601/Augustus --skill augustus</code></pre>
+<pre tabindex="0" role="region" aria-label="Skills CLI installation command"><code>npx skills add https://github.com/24601/Augustus/tree/v0.8.0 --skill augustus augustus-train</code></pre>
     </section>
     <p class="install-help"><a href="https://github.com/24601/Augustus#install">All installation options and version checks</a></p>
   </div>
