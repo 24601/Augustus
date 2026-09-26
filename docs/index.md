@@ -17,7 +17,7 @@ page_class: home
     <div class="opening-actions">
       <a class="button" href="#install">Install Augustus <span aria-hidden="true">↓</span></a>
       <a href="{{ '/examples.html' | relative_url }}">Read a worked example</a>
-      <a href="#film">Watch the 2:38 film</a>
+      <a href="#film">Watch the 3:05 film</a>
     </div>
   </div>
   <span class="registration" aria-hidden="true"></span>
