@@ -9,7 +9,7 @@
       "description": "Find, build, evaluate, and hill-climb decision-model systems. Apply composition, decision theory, calibration and outcome evaluation across software, business and everyday decisions. TypeSafe Jev is the default hosted exemplar. Independent of TypeSafe.",
       "name": "augustus",
       "source": "./.agents",
-      "skills": ["./skills/augustus"],
+      "skills": ["./skills/augustus", "./skills/augustus-train"],
       "strict": false,
       "homepage": "https://24601.github.io/Augustus/",
       "repository": "https://github.com/24601/Augustus",
