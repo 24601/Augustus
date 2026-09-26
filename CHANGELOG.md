@@ -16,6 +16,18 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+### Fixed
+
+- `0.8.1-dev`: trainer guidance now checks intended optimizer membership and
+  actual learning before expensive fits, and probes custom objectives against
+  known targets without imposing these checks on no-training solutions.
+- Calibration/export guidance distinguishes unchanged argmax from changed
+  thresholds, abstention and expected rubric scores. Required calibration must
+  survive reload; top-label ECE does not certify soft-distribution fidelity.
+- Threshold-only risk/coverage guidance preserves score ties and considers
+  nonmonotone selective risk. The existing binary evaluator already handles
+  fixed-threshold ties; new regression cases exercise that behavior.
+
 ## [0.8.0] - 2026-09-26
 
 Minor release: adds the companion trainer skill without removing the existing

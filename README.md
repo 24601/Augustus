@@ -155,6 +155,7 @@ not establish model quality or deployment benefit.
 
 Published release: **0.8.0**. See the
 [release notes](docs/release-notes-v0.8.0.md) for changes and migration details.
+The default branch carries **0.8.1-dev**, a trainer-validation guidance patch.
 Install from the `v0.8.0` tag for the published revision; default-branch installs
 can receive later development work.
 

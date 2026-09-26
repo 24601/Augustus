@@ -163,6 +163,35 @@ class EvaluateDecisionsTests(unittest.TestCase):
         self.assertEqual(result["cost"], 5.5 / 3)
         self.assertIn("p <= lower", result["tie_policy"])
 
+    def test_selective_ties_are_atomic_and_risk_can_fall_with_coverage(self):
+        rows = [
+            {"id": "top-wrong", "p": 0.9, "y": 0},
+            {"id": "top-right", "p": 0.9, "y": 1},
+            {"id": "lower-right-a", "p": 0.8, "y": 1},
+            {"id": "lower-right-b", "p": 0.8, "y": 1},
+        ]
+        for ordered in (rows, list(reversed(rows)), rows[1:] + rows[:1]):
+            with self.subTest(order=[r["id"] for r in ordered]):
+                excluded = evaluate.selective_policy(ordered, 0, math.nextafter(.9, 1))
+                top = evaluate.selective_policy(ordered, 0, .9)
+                all_rows = evaluate.selective_policy(ordered, 0, .8)
+                self.assertEqual(excluded["decided_coverage"], 0)
+                self.assertIsNone(excluded["selective_error"])
+                self.assertEqual((top["decided_coverage"], top["selective_error"]), (.5, .5))
+                self.assertEqual((all_rows["decided_coverage"], all_rows["selective_error"]), (1, .25))
+
+    def test_temperature_keeps_label_but_changes_policy_cost(self):
+        # Odds 9:1 become 3:1 under T=2: p moves from .9 to .75.
+        raw = [{"id": "a", "p": .9, "y": 0}]
+        calibrated_p = 1 / (1 + math.exp(-math.log(9) / 2))
+        self.assertAlmostEqual(calibrated_p, .75)
+        self.assertGreater(calibrated_p, .5)
+        calibrated = [{"id": "a", "p": calibrated_p, "y": 0}]
+        before = evaluate.selective_policy(raw, .2, .8, 5, 1, .4)
+        after = evaluate.selective_policy(calibrated, .2, .8, 5, 1, .4)
+        self.assertEqual((before["fp"], before["abstentions"], before["cost"]), (1, 0, 5))
+        self.assertEqual((after["fp"], after["abstentions"], after["cost"]), (0, 1, .4))
+
     def test_all_abstain_has_no_selective_error(self):
         rows = [
             {"id": "one", "p": 0.2, "y": 0},

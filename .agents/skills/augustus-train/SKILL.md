@@ -3,7 +3,7 @@ name: augustus-train
 description: "Builds and improves task-specific decision artifacts from application requirements and labeled records. Use for data assembly, primitive and base-model selection, fitting, export/reload, inference policy, or bounded data/model/program improvement. Includes rules and no-training outcomes; does not require a rung ladder or training a general Jev."
 license: MIT
 metadata:
-  version: 0.8.0
+  version: 0.8.1-dev
 ---
 
 # Augustus Train
@@ -33,6 +33,9 @@ An exact rule may finish the task immediately. Small data may justify a bounded
 prototype without a generalization guarantee. Missing labels do not justify
 fabricating gold. Do not require every task to train, call a zero-shot model,
 calibrate, or visit every artifact family before making progress.
+For exact rules, verify the authoritative mapping and failure paths directly.
+Incidental labeled notes are not automatically a representative holdout; do not
+attach population-error bounds without the requisite sampling assumptions.
 
 ## Choose a primitive and a small candidate set
 

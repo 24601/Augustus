@@ -48183,7 +48183,11 @@ abstention, already in the class. **Shanghua-Gao/RSI-Jev** HEAD
 `61a57053bbdc`. License MIT. Tag `v1.0`. README opening. Agents register
 predictions before GPU time and retire champions. That is an
 incumbent-challenger loop, not a new family. About 10 ms is theirs. This
-is not `yzxoi/RSI-Jev-Slay-the-Spire-2`. **sedthh/xjevboost** HEAD
+is not `yzxoi/RSI-Jev-Slay-the-Spire-2`.
+**2026-09-26 v2 revisit:** [trainer-validation audit](audits/2026-09-26-trainer-081.md)
+pins the later code/model card and refines fit-integrity, calibration-export and
+tie-policy guidance; benchmark gains remain reported and domain-limited.
+**sedthh/xjevboost** HEAD
 `d91797bf5d0b`. License Apache-2.0. README opening. It learns which table
 slices to send and when to stop. The quality claim was not measured here.
 **0x7067/pi-jev** HEAD `60b8de1e120d`. License MIT. Jev picks blocks to

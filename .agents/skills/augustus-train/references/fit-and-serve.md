@@ -35,6 +35,28 @@ example's criteria, evidence, candidate set and answer; diversify tasks; hold ou
 whole task definitions and candidate vocabularies; test invariance and unknowns.
 Do not advertise the binary example below as learning that capability.
 
+## Verify that the intended fit actually runs
+
+Before an expensive neural fit, compare the intended trainable names/counts with
+the optimizer's actual parameter groups; `requires_grad` alone does not prove a
+parameter is optimized. Set the seed before constructing randomly initialized
+heads/adapters, not only before batching. On a small real training batch, inspect
+finite loss/gradients and compare parameter snapshots before and after an update.
+An expected-to-learn component must receive a learning signal and move; deliberately
+frozen components must stay fixed. Do not require every tensor to move on every
+batch: zero gradients, warmup and gated branches can be legitimate. Diagnose an
+unexpected stationary tower before interpreting a head-only run as fine-tuning.
+Weight movement alone does not prove useful learning or correct supervision.
+
+For a custom loss, reward or estimator, first run the exact implementation and
+configuration on a small problem with an independently known target. For example,
+constant-input binary soft cross-entropy with target mass 0.3 has optimum
+`P(y=1)=0.3`, not the hard-label optimum near zero. Check both the objective/gradient
+and the optimizer's behavior within declared numerical tolerances. A separate toy
+implementation cannot certify the training path. This probe is not a demand to
+re-prove a standard library optimizer, nor evidence of application performance.
+If it fails, repair that path before spending on or ranking its candidate results.
+
 ## Runnable CPU starting point for a binary text task
 
 This deliberately small example uses ordinary scikit-learn, not a trainer framework
@@ -154,6 +176,17 @@ calling that score a calibrated probability. Class frequency, ranking correctnes
 and reliability are different measurements. Calibrating is not compulsory when
 the output consumer needs only a validated rank or action.
 
+One positive temperature per example preserves its option ordering, but can
+change event-threshold decisions, abstention and the expected ordinal score.
+An input-dependent calibrator can help heterogeneous errors; it adds fit/selection
+complexity and is a candidate, not a requirement or a guarantee under shift.
+Evaluate it against no calibration and a simpler map on independent evidence.
+Top-label correctness calibration is not classwise probability reliability or
+fidelity to a soft target distribution. If the consumer uses rubric distributions,
+measure their proper loss and expected-score error as well as top-label ECE.
+A soften-only constraint may protect one target but is not universally appropriate.
+Teacher-distribution agreement remains teacher agreement, not outcome truth.
+
 For the following executable illustration, place this `policy.json` beside the
 model. These cutoffs and input length are illustrative: replace them from the
 application contract and development results before confirmation. The abstention
@@ -220,6 +253,15 @@ training files and replay held-out inputs. Test positive and negative cases,
 empty/unseen/overlong text, malformed requests, ties at each policy boundary,
 unknown classes and missing artifacts. Confirm semantic label mapping, not just
 array shape. Ensure the no-match/abstain path reaches a real application fallback.
+
+When calibration is part of the approved bundle, bind its fitted parameters,
+feature preprocessing, option mapping and version to the model and policy. The
+production loader must apply that exact map; an absent/incompatible required
+calibrator must refuse the candidate and retain the incumbent, not silently serve
+raw scores. Explicitly uncalibrated candidates remain valid when so evaluated.
+Replay a case where raw versus calibrated scores differ in policy action or
+expected rubric score, plus a missing-calibrator case: argmax-only reload checks
+would miss this failure. Verify the full output distribution within tolerances.
 
 Before changing precision, batching, runtime or merging adapters, declare acceptable
 score drift and action/constraint regressions for representative and boundary

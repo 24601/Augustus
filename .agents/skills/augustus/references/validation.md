@@ -18,8 +18,8 @@ requalification rather than inheriting a previous threshold.
 So does a wrapper that changes normalization, averaging, or score semantics
 without changing the response schema.
 Positive scalar temperature scaling preserves the top label but can change
-threshold crossings, abstention, and policy loss; label accuracy alone cannot
-establish policy equivalence.
+threshold crossings, abstention, expected rubric scores, and policy loss;
+label accuracy alone cannot establish policy equivalence.
 
 Separate three data uses: development (including prompt search), calibration
 and policy selection, and final evaluation. Split by source entity, document,
@@ -54,6 +54,11 @@ it. Low ECE can coexist with poor discrimination; high AUC can coexist with
 poor calibration. Multiclass top-label calibration, classwise calibration,
 and binary event calibration are different quantities. Do not compare
 incompatible channels as one metric.
+
+Top-label ECE can improve while a rubric distribution's Brier/log loss or expected
+score becomes worse. Evaluate the quantity consumed by the policy, not a convenient
+substitute. A proper score against synthetic teacher distributions measures that
+teacher target, not independently established correctness.
 
 Report uncertainty on paired differences. Respect clustering when resampling
 documents, tasks, or trajectories. A confidence interval crossing zero is
@@ -93,6 +98,15 @@ before final evaluation. Report both sides of the policy, abstentions,
 decided coverage, selective error, and total population cost. If no cases
 are decided, selective error is undefined, not zero. Include always-positive,
 always-negative, and defer-all baselines when they are feasible policies.
+
+For a threshold-only risk/coverage curve, admit all rows with the same selection
+score together. Cutting partway through a tie makes the result depend on row order
+and describes a policy the threshold cannot implement. If deployment uses a
+secondary tie-break or randomization, specify and evaluate that actual policy;
+do not choose favorable tied labels. Conditional error need not increase with
+coverage: examine all attainable thresholds rather than stopping at the first
+risk-limit violation. Selecting the largest admissible coverage on development
+data still requires independent confirmation of the frozen policy.
 
 ## Conformal prediction and risk control
 
