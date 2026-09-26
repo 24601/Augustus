@@ -1,8 +1,39 @@
 # Augustus 0.8.0 listing receipt — 2026-09-26
 
-**Result: two directory correction requests queued; six checked fork branches
-pushed, but GitHub PR creation and the skills.sh issue follow-up are blocked by
-credential permissions. No new 0.8.0 listing correction is confirmed accepted.**
+**Updated result, 20:45 UTC: six awesome-list PRs submitted, the skills.sh
+follow-up posted, and the repository About description updated using Basit's
+authorized Mac runner. Two directory corrections remain queued. Maintainer
+acceptance and crawler refresh are not yet confirmed.**
+
+## Mac completion of the permission-blocked actions
+
+Basit explicitly requested the Mac runner after the orb credential could not
+submit these changes. The existing authenticated GitHub session was used;
+no credentials, authentication settings or local repository files were changed.
+Duplicate checks preceded submission. The coordinator independently read back
+all six PRs, matching their heads to the prepared commits below:
+
+- [Hellogumbo #136](https://github.com/hellogumbo/awesome-jev/pull/136)
+- [Yibie #276](https://github.com/yibie/awesome-jev/pull/276)
+- [AnotiaWang #85](https://github.com/AnotiaWang/awesome-jev/pull/85)
+- [AbdelStark #156](https://github.com/AbdelStark/awesome-typesafe-jev/pull/156)
+- [Cobanov #117](https://github.com/cobanov/awesome-jev/pull/117)
+- [Anil-matcha #90](https://github.com/Anil-matcha/awesome-jev-by-typesafe/pull/90)
+
+All six were open and unmerged at read-back. The
+[skills.sh follow-up](https://github.com/vercel-labs/skills/issues/2286#issuecomment-5849734738)
+is posted on the existing open issue; it distinguishes the older passing Snyk
+audit from the requested new-skill indexing and audit refresh. The About
+description now matches the proposed copy in the
+[publication receipt](2026-09-26-release-080-publication.md); homepage unchanged.
+No directory forms were resubmitted, historical PRs reopened, or release tags
+changed. [Mac execution](https://ampcode.com/threads/T-01a0df74-3cc8-7526-b85d-4f2f3efc967a).
+
+## Earlier orb attempt (19:27–19:45 UTC)
+
+The permission errors and next-action instructions below describe the earlier
+attempt, not the current submission state. The Mac completion above supersedes
+those blockers without rewriting the original observations.
 
 Basit authorized this work through the release coordinator. Only this receipt
 changes in Augustus; release, metadata and site changes belong to the parent.

@@ -43,6 +43,13 @@ unmeasured.
 
 ## Permission limit
 
+**Resolved at 20:45 UTC:** following Basit's explicit Mac-runner request, the
+existing Mac GitHub session updated the About description to the copy below.
+The coordinator independently read back the exact description and unchanged
+homepage. See the [listing completion](2026-09-26-release-080-listings.md)
+for the six submitted PRs and posted skills.sh follow-up. The original orb
+failure below remains as historical context.
+
 Updating the repository About description through `gh repo edit` returned
 **HTTP 403: Resource not accessible by integration**. Read-back confirmed the
 previous description and correct homepage were unchanged. No account/security
