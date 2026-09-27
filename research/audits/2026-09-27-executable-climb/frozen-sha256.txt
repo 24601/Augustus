@@ -1,0 +1,6 @@
+491e1a263290ed4379b4f44f634e550b1b815a6e24f7229112c8a32de4b4cabc  research/audits/2026-09-27-executable-climb/grade.py
+98bea0f4e8cbad3b581cabb1fb85e547e9e344404961da4f32830ed0fc11025a  research/audits/2026-09-27-executable-climb/reference.py
+ed358d72d9e6aad4a55b30c4fa241638045e71b5d6591ef85cb04e0c6fbae076  research/audits/2026-09-27-executable-climb/contract.md
+723e69305eeebbfd1f1b5a8ba16c35400482ad629cf2fe6616bd577efe7e08b9  research/audits/2026-09-27-executable-climb/tasks/data/prompt.md
+9738c51935448cad0d7114ce136157752402ecf8184a5bfce03fca26d48fee53  research/audits/2026-09-27-executable-climb/tasks/planning/prompt.md
+392ecf86a5d590a67871c3f2fca1a93d1ad2a23d9a40a451735ecace3c400d1c  research/audits/2026-09-27-executable-climb/tasks/training/prompt.md

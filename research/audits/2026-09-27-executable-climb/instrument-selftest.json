@@ -1,0 +1,59 @@
+[
+  {
+    "task": "data",
+    "variant": "reference",
+    "accepted": true
+  },
+  {
+    "task": "planning",
+    "variant": "reference",
+    "accepted": true
+  },
+  {
+    "task": "training",
+    "variant": "reference",
+    "accepted": true
+  },
+  {
+    "task": "data",
+    "variant": "nontransitive",
+    "accepted": false,
+    "assertion_failures": 1
+  },
+  {
+    "task": "data",
+    "variant": "replace-first",
+    "accepted": false,
+    "assertion_failures": 1
+  },
+  {
+    "task": "planning",
+    "variant": "row-only",
+    "accepted": false,
+    "assertion_failures": 1
+  },
+  {
+    "task": "planning",
+    "variant": "repay-sunk",
+    "accepted": false,
+    "assertion_failures": 1
+  },
+  {
+    "task": "training",
+    "variant": "hard-targets",
+    "accepted": false,
+    "assertion_failures": 3
+  },
+  {
+    "task": "training",
+    "variant": "ignore-temperature",
+    "accepted": false,
+    "assertion_failures": 1
+  },
+  {
+    "task": "training",
+    "variant": "positive-tie",
+    "accepted": false,
+    "assertion_failures": 1
+  }
+]

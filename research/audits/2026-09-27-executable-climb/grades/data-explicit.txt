@@ -1,0 +1,8 @@
+test_first_event_must_not_be_replaced (__main__.Data.test_first_event_must_not_be_replaced) ... ok
+test_label_cutoffs_and_eligible_only_relations (__main__.Data.test_label_cutoffs_and_eligible_only_relations) ... ok
+test_transitive_components_and_projection (__main__.Data.test_transitive_components_and_projection) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.021s
+
+OK

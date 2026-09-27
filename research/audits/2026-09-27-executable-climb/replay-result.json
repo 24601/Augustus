@@ -1,0 +1,88 @@
+{
+  "verified_archive_files": 325,
+  "records": [
+    {
+      "id": "release-data-none",
+      "cost": 0.1706648,
+      "task": "data",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-data-auto",
+      "cost": 0.137298,
+      "task": "data",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-data-explicit",
+      "cost": 0.1827526,
+      "task": "data",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-planning-auto",
+      "cost": 0.18044160000000004,
+      "task": "planning",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-planning-explicit",
+      "cost": 0.162632,
+      "task": "planning",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-planning-none",
+      "cost": 0.15278239999999998,
+      "task": "planning",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-training-explicit",
+      "cost": 0.2704144,
+      "task": "training",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-training-none",
+      "cost": 0.2862554,
+      "task": "training",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    {
+      "id": "release-training-auto",
+      "cost": 0.2648176,
+      "task": "training",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    }
+  ],
+  "total_reported_cost": 1.8080588,
+  "decision": "retain 0.8.1: saturated development; holdout unopened"
+}

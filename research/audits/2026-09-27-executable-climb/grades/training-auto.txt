@@ -1,0 +1,10 @@
+test_calibrated_policy_boundaries_and_extremes (__main__.Training.test_calibrated_policy_boundaries_and_extremes) ... ok
+test_real_fit_cli_and_fresh_process_inference (__main__.Training.test_real_fit_cli_and_fresh_process_inference) ... ok
+test_required_policy_and_overwrite_refusal (__main__.Training.test_required_policy_and_overwrite_refusal) ... ok
+test_soft_target_convergence (__main__.Training.test_soft_target_convergence) ... ok
+test_updates_against_decimal_reference (__main__.Training.test_updates_against_decimal_reference) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.056s
+
+OK

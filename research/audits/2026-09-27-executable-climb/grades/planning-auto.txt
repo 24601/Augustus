@@ -1,0 +1,7 @@
+test_cost_selection_against_rational_oracle (__main__.Planning.test_cost_selection_against_rational_oracle) ... ok
+test_group_exclusion_feasibility_and_empty_class (__main__.Planning.test_group_exclusion_feasibility_and_empty_class) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.051s
+
+OK
