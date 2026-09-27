@@ -1,0 +1,224 @@
+{
+  "verified_archive_files": 490,
+  "records": [
+    {
+      "id": "release-selection-r1-none",
+      "task": "selection",
+      "arm": "none",
+      "repeat": 1,
+      "cost": 0.3700038,
+      "passed": true,
+      "loss": 0.20325
+    },
+    {
+      "id": "release-selection-r1-auto",
+      "task": "selection",
+      "arm": "auto",
+      "repeat": 1,
+      "cost": 0.3556794,
+      "passed": true,
+      "loss": 0.17625
+    },
+    {
+      "id": "release-selection-r1-explicit",
+      "task": "selection",
+      "arm": "explicit",
+      "repeat": 1,
+      "cost": 0.5169146,
+      "passed": true,
+      "loss": 0.20325
+    },
+    {
+      "id": "release-policy-r1-auto",
+      "task": "policy",
+      "arm": "auto",
+      "repeat": 1,
+      "cost": 0.17356839999999998,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-policy-r1-explicit",
+      "task": "policy",
+      "arm": "explicit",
+      "repeat": 1,
+      "cost": 0.2008538,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-policy-r1-none",
+      "task": "policy",
+      "arm": "none",
+      "repeat": 1,
+      "cost": 0.13238260000000002,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-selection-r2-auto",
+      "task": "selection",
+      "arm": "auto",
+      "repeat": 2,
+      "cost": 0.293265,
+      "passed": true,
+      "loss": 0.1675
+    },
+    {
+      "id": "release-selection-r2-explicit",
+      "task": "selection",
+      "arm": "explicit",
+      "repeat": 2,
+      "cost": 0.284221,
+      "passed": true,
+      "loss": 0.20325
+    },
+    {
+      "id": "release-selection-r2-none",
+      "task": "selection",
+      "arm": "none",
+      "repeat": 2,
+      "cost": 0.2730484,
+      "passed": true,
+      "loss": 0.20325
+    },
+    {
+      "id": "release-policy-r2-explicit",
+      "task": "policy",
+      "arm": "explicit",
+      "repeat": 2,
+      "cost": 0.225992,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-policy-r2-none",
+      "task": "policy",
+      "arm": "none",
+      "repeat": 2,
+      "cost": 0.1751562,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-policy-r2-auto",
+      "task": "policy",
+      "arm": "auto",
+      "repeat": 2,
+      "cost": 0.1397994,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-selection-r3-explicit",
+      "task": "selection",
+      "arm": "explicit",
+      "repeat": 3,
+      "cost": 0.378295,
+      "passed": true,
+      "loss": 0.1765
+    },
+    {
+      "id": "release-selection-r3-none",
+      "task": "selection",
+      "arm": "none",
+      "repeat": 3,
+      "cost": 0.23231240000000003,
+      "passed": true,
+      "loss": 0.20325
+    },
+    {
+      "id": "release-selection-r3-auto",
+      "task": "selection",
+      "arm": "auto",
+      "repeat": 3,
+      "cost": 0.244039,
+      "passed": true,
+      "loss": 0.20325
+    },
+    {
+      "id": "release-policy-r3-none",
+      "task": "policy",
+      "arm": "none",
+      "repeat": 3,
+      "cost": 0.1594784,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-policy-r3-auto",
+      "task": "policy",
+      "arm": "auto",
+      "repeat": 3,
+      "cost": 0.1379454,
+      "passed": true,
+      "loss": 44.803292181069956
+    },
+    {
+      "id": "release-policy-r3-explicit",
+      "task": "policy",
+      "arm": "explicit",
+      "repeat": 3,
+      "cost": 0.222963,
+      "passed": true,
+      "loss": 44.803292181069956
+    }
+  ],
+  "summary": [
+    {
+      "task": "selection",
+      "arm": "none",
+      "passed": 3,
+      "runs": 3,
+      "median_loss": 0.20325,
+      "mean_loss": 0.20325,
+      "reported_cost": 0.8753646000000002
+    },
+    {
+      "task": "selection",
+      "arm": "auto",
+      "passed": 3,
+      "runs": 3,
+      "median_loss": 0.17625,
+      "mean_loss": 0.18233333333333332,
+      "reported_cost": 0.8929834
+    },
+    {
+      "task": "selection",
+      "arm": "explicit",
+      "passed": 3,
+      "runs": 3,
+      "median_loss": 0.20325,
+      "mean_loss": 0.19433333333333333,
+      "reported_cost": 1.1794306
+    },
+    {
+      "task": "policy",
+      "arm": "none",
+      "passed": 3,
+      "runs": 3,
+      "median_loss": 44.803292181069956,
+      "mean_loss": 44.803292181069956,
+      "reported_cost": 0.4670172
+    },
+    {
+      "task": "policy",
+      "arm": "auto",
+      "passed": 3,
+      "runs": 3,
+      "median_loss": 44.803292181069956,
+      "mean_loss": 44.803292181069956,
+      "reported_cost": 0.45131319999999997
+    },
+    {
+      "task": "policy",
+      "arm": "explicit",
+      "passed": 3,
+      "runs": 3,
+      "median_loss": 44.803292181069956,
+      "mean_loss": 44.803292181069956,
+      "reported_cost": 0.6498088
+    }
+  ],
+  "total_reported_cost": 4.5159178
+}

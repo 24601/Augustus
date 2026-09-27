@@ -1,0 +1,1 @@
+{"passed": true, "mean_loss": 0.1675, "fp": 166, "fn": 63, "n": 4000, "safety_failures": 0, "stock": "compact", "latency_ms": 9, "fresh_process": true, "artifact": {"stock": "compact", "threshold": 0.0655, "cv_loss": 0.08333333333333333, "train_loss": 0.08333333333333333, "fit_rows": 300, "change_day": 90}, "errors": []}

@@ -1,0 +1,17 @@
+{
+  "fn_cost": 8,
+  "fp_cost": 1,
+  "max_latency_ms": 15,
+  "max_mean_loss": 0.45,
+  "stocks": {
+    "legacy": {
+      "latency_ms": 3
+    },
+    "compact": {
+      "latency_ms": 9
+    },
+    "large": {
+      "latency_ms": 120
+    }
+  }
+}

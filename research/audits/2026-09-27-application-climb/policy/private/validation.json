@@ -1,0 +1,146 @@
+{
+  "always_cold": {
+    "cost": 46.98106995884773,
+    "errors": [
+      "illegal shipping action(s)"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 523
+    }
+  },
+  "always_ground": {
+    "cost": 51.309465020576134,
+    "errors": [
+      "illegal shipping action(s)",
+      "mean realized cost exceeds fixed ceiling"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 786
+    }
+  },
+  "always_hold": {
+    "cost": 73.78600823045268,
+    "errors": [
+      "mean realized cost exceeds fixed ceiling"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 0
+    }
+  },
+  "anchors_passed": 11,
+  "fit_global_not_restored": {
+    "cost": null,
+    "errors": [
+      "ValueError: candidate subprocess failed: Traceback (most recent call last):\n  File \"/tmp/dispatch-serve-2py7cfha/runner.py\", line 17, in <module>\n    result = [module.decide(data[\"artifact\"], row) for row in data[\"rows\"]]\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/dispatch-serve-2py7cfha/runner.py\", line 17, in <listcomp>\n    result = [module.decide(data[\"artifact\"], row) for row in data[\"rows\"]]\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/dispatch-serve-2py7cfha/solution.py\", line 5, in decide\n    def decide(a,r): return fitted\n                            ^^^^^^\nNameError: name 'fitted' is not defined. Did you mean: 'filter'?\n"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 0,
+      "violations": 0
+    }
+  },
+  "fixed_ceiling": 50.0,
+  "future_rows": 1215,
+  "historical_actions": {
+    "cold": 55,
+    "ground": 27,
+    "hold": 398
+  },
+  "invalid_action": {
+    "cost": null,
+    "errors": [
+      "ValueError: invalid action at index 0: 'approve'"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 0,
+      "violations": 0
+    }
+  },
+  "non_finite_artifact": {
+    "cost": null,
+    "errors": [
+      "ValueError: candidate subprocess failed: Traceback (most recent call last):\n  File \"/tmp/dispatch-fit-e7zwc7x6/runner.py\", line 18, in <module>\n    print(json.dumps(result, allow_nan=False))\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\nValueError: Out of range float values are not JSON compliant\n"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 0,
+      "violations": 0
+    }
+  },
+  "non_json_artifact": {
+    "cost": null,
+    "errors": [
+      "ValueError: candidate subprocess failed: Traceback (most recent call last):\n  File \"/tmp/dispatch-fit-vl8p1alt/runner.py\", line 18, in <module>\n    print(json.dumps(result, allow_nan=False))\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type set is not JSON serializable\n"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 0,
+      "violations": 0
+    }
+  },
+  "old_release_overrides_revocation": {
+    "cost": 29.413991769547327,
+    "errors": [
+      "illegal shipping action(s)"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 429
+    }
+  },
+  "reference": {
+    "cost": 44.803292181069956,
+    "errors": [],
+    "pass": true,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 0
+    }
+  },
+  "reference_actions": {
+    "cold": 335,
+    "ground": 282,
+    "hold": 598
+  },
+  "safe_cheapest_freight_ignores_lateness": {
+    "cost": 55.14156378600823,
+    "errors": [
+      "mean realized cost exceeds fixed ceiling"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 0
+    }
+  },
+  "selected_label_risk_gate": {
+    "cost": 57.90534979423868,
+    "errors": [
+      "mean realized cost exceeds fixed ceiling"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 0
+    }
+  },
+  "stale_order_id_cache": {
+    "cost": 44.71440329218107,
+    "errors": [
+      "illegal shipping action(s)"
+    ],
+    "pass": false,
+    "safety": {
+      "evaluated": 1215,
+      "violations": 2
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "enzyme-dispatch-1",
+  "ground_handling_hours": 1,
+  "cold_handling_hours": 3,
+  "ground_base": 4,
+  "ground_per_kg": 1,
+  "cold_base": 12,
+  "cold_per_kg": 2,
+  "late_base": 50,
+  "late_value_fraction": 0.5,
+  "hold_base": 35,
+  "hold_value_fraction": 0.25,
+  "maximum_mean_cost": 50.0,
+  "maximum_safety_violations": 0
+}

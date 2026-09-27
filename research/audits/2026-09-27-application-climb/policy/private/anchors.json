@@ -1,0 +1,493 @@
+[
+  {
+    "name": "ground-equality",
+    "row": {
+      "order_id": "ground-equality",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 16
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold",
+      "ground",
+      "cold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "ground"
+  },
+  {
+    "name": "one-unit-short",
+    "row": {
+      "order_id": "one-unit-short",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 15
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold",
+      "cold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "cold"
+  },
+  {
+    "name": "signed-revocation-over-draft",
+    "row": {
+      "order_id": "signed-revocation-over-draft",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 16
+        },
+        {
+          "revision": 3,
+          "signed": false,
+          "status": "released",
+          "remaining_units": 1000
+        },
+        {
+          "revision": 2,
+          "signed": true,
+          "status": "revoked",
+          "remaining_units": 16
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "hold"
+  },
+  {
+    "name": "signed-recovery-not-last-array-entry",
+    "row": {
+      "order_id": "signed-recovery-not-last-array-entry",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 8,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 16
+        },
+        {
+          "revision": 4,
+          "signed": true,
+          "status": "quarantine",
+          "remaining_units": 0
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold",
+      "ground",
+      "cold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "ground"
+  },
+  {
+    "name": "unsigned-only",
+    "row": {
+      "order_id": "unsigned-only",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": false,
+          "status": "released",
+          "remaining_units": 16
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "hold"
+  },
+  {
+    "name": "box-outage",
+    "row": {
+      "order_id": "box-outage",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": false,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 15
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "hold"
+  },
+  {
+    "name": "ground-outage",
+    "row": {
+      "order_id": "ground-outage",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": false,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 16
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold",
+      "cold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "cold"
+  },
+  {
+    "name": "lucky-arrival-not-expected-cost",
+    "row": {
+      "order_id": "lucky-arrival-not-expected-cost",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 4,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 16
+        }
+      ]
+    },
+    "ground_transit": 3,
+    "cold_transit": 2,
+    "allowed": [
+      "hold",
+      "ground",
+      "cold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 116
+    },
+    "reference_action": "hold"
+  },
+  {
+    "name": "cold-deadline-equality",
+    "row": {
+      "order_id": "cold-deadline-equality",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 7,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 7,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 16
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold",
+      "ground",
+      "cold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 106,
+      "cold": 16
+    },
+    "reference_action": "cold"
+  },
+  {
+    "name": "cold-protection-exhausted",
+    "row": {
+      "order_id": "cold-protection-exhausted",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 6,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 1
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "hold"
+  },
+  {
+    "name": "cold-dose-equality",
+    "row": {
+      "order_id": "cold-dose-equality",
+      "order_value": 100,
+      "weight_kg": 2,
+      "deadline_hours": 8,
+      "legacy_risk_score": 0.92,
+      "ambient_units_per_hour": 2,
+      "cold_protection_hours": 6,
+      "cold_boxes_available": true,
+      "ground": {
+        "open": true,
+        "min_hours": 3,
+        "max_hours": 7
+      },
+      "cold": {
+        "open": true,
+        "min_hours": 2,
+        "max_hours": 4
+      },
+      "certificates": [
+        {
+          "revision": 1,
+          "signed": true,
+          "status": "released",
+          "remaining_units": 2
+        }
+      ]
+    },
+    "ground_transit": 7,
+    "cold_transit": 4,
+    "allowed": [
+      "hold",
+      "cold"
+    ],
+    "loss": {
+      "hold": 60,
+      "ground": 6,
+      "cold": 16
+    },
+    "reference_action": "cold"
+  }
+]
