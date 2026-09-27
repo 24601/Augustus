@@ -1,0 +1,194 @@
+{
+  "all_history": {
+    "evidence": "descriptive",
+    "population": {
+      "name": "all_history",
+      "selection": "all rows of named source",
+      "n": 1200,
+      "selected_rows_sha256": "e1943e19f08c095fa63ea6e75d59daabdb20dae2ba8f183f8aaec8ffecd8d8e3"
+    },
+    "policy": {
+      "threshold": 0.07036600000000001,
+      "shift": 0.01,
+      "cost_fp": 1,
+      "cost_fn": 8,
+      "comparison": "score >= threshold",
+      "clipping": "none"
+    },
+    "reports": [
+      {
+        "intervention": "baseline",
+        "n": 1200,
+        "positive_actions": 555,
+        "action_rate": 0.4625,
+        "fp": 439,
+        "fn": 59,
+        "mean_loss": 0.7591666666666667
+      },
+      {
+        "intervention": "score_down",
+        "n": 1200,
+        "positive_actions": 478,
+        "action_rate": 0.3983333333333333,
+        "fp": 376,
+        "fn": 73,
+        "mean_loss": 0.8
+      },
+      {
+        "intervention": "score_up",
+        "n": 1200,
+        "positive_actions": 618,
+        "action_rate": 0.515,
+        "fp": 492,
+        "fn": 49,
+        "mean_loss": 0.7366666666666667
+      },
+      {
+        "intervention": "threshold_down",
+        "n": 1200,
+        "positive_actions": 618,
+        "action_rate": 0.515,
+        "fp": 492,
+        "fn": 49,
+        "mean_loss": 0.7366666666666667
+      },
+      {
+        "intervention": "threshold_up",
+        "n": 1200,
+        "positive_actions": 478,
+        "action_rate": 0.3983333333333333,
+        "fp": 376,
+        "fn": 73,
+        "mean_loss": 0.8
+      }
+    ]
+  },
+  "current_history": {
+    "evidence": "descriptive",
+    "population": {
+      "name": "current_history",
+      "selection": "day >= 90",
+      "n": 300,
+      "selected_rows_sha256": "9a11f402fd3dcdd6f7f848655b2a6dc7f3dfc53ba83f1c9d9c1741d03feb5927"
+    },
+    "policy": {
+      "threshold": 0.07036600000000001,
+      "shift": 0.01,
+      "cost_fp": 1,
+      "cost_fn": 8,
+      "comparison": "score >= threshold",
+      "clipping": "none"
+    },
+    "reports": [
+      {
+        "intervention": "baseline",
+        "n": 300,
+        "positive_actions": 44,
+        "action_rate": 0.14666666666666667,
+        "fp": 7,
+        "fn": 2,
+        "mean_loss": 0.07666666666666666
+      },
+      {
+        "intervention": "score_down",
+        "n": 300,
+        "positive_actions": 37,
+        "action_rate": 0.12333333333333334,
+        "fp": 4,
+        "fn": 6,
+        "mean_loss": 0.17333333333333334
+      },
+      {
+        "intervention": "score_up",
+        "n": 300,
+        "positive_actions": 57,
+        "action_rate": 0.19,
+        "fp": 20,
+        "fn": 2,
+        "mean_loss": 0.12
+      },
+      {
+        "intervention": "threshold_down",
+        "n": 300,
+        "positive_actions": 57,
+        "action_rate": 0.19,
+        "fp": 20,
+        "fn": 2,
+        "mean_loss": 0.12
+      },
+      {
+        "intervention": "threshold_up",
+        "n": 300,
+        "positive_actions": 37,
+        "action_rate": 0.12333333333333334,
+        "fp": 4,
+        "fn": 6,
+        "mean_loss": 0.17333333333333334
+      }
+    ]
+  },
+  "revealed_future_audit": {
+    "evidence": "descriptive",
+    "population": {
+      "name": "revealed_future_audit",
+      "selection": "all rows of named source",
+      "n": 4000,
+      "selected_rows_sha256": "8316312813507e72875a82de4f1cb0347baa34b749f4da917de294fb8c32b280"
+    },
+    "policy": {
+      "threshold": 0.07036600000000001,
+      "shift": 0.01,
+      "cost_fp": 1,
+      "cost_fn": 8,
+      "comparison": "score >= threshold",
+      "clipping": "none"
+    },
+    "reports": [
+      {
+        "intervention": "baseline",
+        "n": 4000,
+        "positive_actions": 740,
+        "action_rate": 0.185,
+        "fp": 109,
+        "fn": 88,
+        "mean_loss": 0.20325
+      },
+      {
+        "intervention": "score_down",
+        "n": 4000,
+        "positive_actions": 587,
+        "action_rate": 0.14675,
+        "fp": 35,
+        "fn": 167,
+        "mean_loss": 0.34275
+      },
+      {
+        "intervention": "score_up",
+        "n": 4000,
+        "positive_actions": 921,
+        "action_rate": 0.23025,
+        "fp": 248,
+        "fn": 46,
+        "mean_loss": 0.154
+      },
+      {
+        "intervention": "threshold_down",
+        "n": 4000,
+        "positive_actions": 921,
+        "action_rate": 0.23025,
+        "fp": 248,
+        "fn": 46,
+        "mean_loss": 0.154
+      },
+      {
+        "intervention": "threshold_up",
+        "n": 4000,
+        "positive_actions": 587,
+        "action_rate": 0.14675,
+        "fp": 35,
+        "fn": 167,
+        "mean_loss": 0.34275
+      }
+    ]
+  }
+}

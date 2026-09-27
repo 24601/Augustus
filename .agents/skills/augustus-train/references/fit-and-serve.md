@@ -176,6 +176,51 @@ calling that score a calibrated probability. Class frequency, ranking correctnes
 and reliability are different measurements. Calibrating is not compulsory when
 the output consumer needs only a validated rank or action.
 
+### Bind reported numbers and test policy direction
+
+For binary raw-score policies, set `TRAINER` to this skill's installed directory.
+Save a receipt input with the actual population IDs, not a manually copied count:
+
+```json
+{
+  "population": {"name": "current-funnel development", "selection": "day >= 90",
+                 "ids": ["b", "c", "d"]},
+  "rows": [{"id": "a", "score": 1, "y": 0},
+           {"id": "b", "score": 0.5, "y": 1},
+           {"id": "c", "score": 0.375, "y": 1},
+           {"id": "d", "score": 0.375, "y": 0}],
+  "threshold": 0.5, "shift": 0.125, "cost_fp": 1, "cost_fn": 8
+}
+```
+
+```sh
+python3 "$TRAINER/scripts/policy_receipt.py" policy-input.json > policy-receipt.json
+```
+
+This fixture's selected population has one positive action out of three, not
+two out of four. Report the population name, denominator, errors and loss from
+that same receipt. Preserve the input hash and policy with it. A historical
+all-row export/reload check can establish replay identity; its action rate must
+not silently become the current-population forecast. The script validates IDs
+and computes a selected-content hash; the caller must verify the selection rule
+actually selected those IDs and the labels have the claimed provenance.
+
+The helper compares `score >= threshold` with exact rational arithmetic.
+Additive shifts do not clip, calibrate, fit, or simulate realistic drift.
+Choose meaningful score units; replay clipping, rounding, abstention and other
+serving rules through the actual `decide` function. Fix population and policy
+for score shifts; fix scores for threshold shifts.
+Show both directions with FP/FN counts and loss before explaining a mechanism.
+Raising scores is not raising the threshold. Effects on total loss depend on
+labels and costs even when the action direction is mathematically determined.
+
+If small perturbations expose an unstable boundary, compare a small justified
+alternative (for example a coarser threshold grid or smoothed development loss)
+against the original on paired development cases. Record the perturbation and
+smoothing assumptions; do not smooth universally or tune against confirmation.
+All helper results are descriptive, including when input names say "confirm".
+It provides no confidence interval, representativeness check or release verdict.
+
 One positive temperature per example preserves its option ordering, but can
 change event-threshold decisions, abstention and the expected ordinal score.
 An input-dependent calibrator can help heterogeneous errors; it adds fit/selection

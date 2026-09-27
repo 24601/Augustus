@@ -16,6 +16,16 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+### Changed
+
+- Development version 0.8.2-dev adds population-bound raw-score policy receipts
+  with executed score/threshold sensitivity diagnostics, counts and input hashes.
+- Trainer reporting separates development/resampling estimates from independent
+  outcomes and next-period forecasts; experiments must answer an unresolved
+  decision rather than accumulate reassuring resamples.
+- These changes address observed reporting errors, not a demonstrated overall
+  advantage over unaided agents. Published 0.8.1 remains unchanged.
+
 ## [0.8.1] - 2026-09-26
 
 Patch release: validation guidance and regression coverage; no new model backend

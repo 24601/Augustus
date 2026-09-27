@@ -47,6 +47,22 @@ is not compulsory every round. Change one mechanism when attribution matters;
 bounded multi-component search is valid when interactions justify it. Count all
 candidate, teacher, evaluator and human-label costs against the declared budget.
 
+Before another resplit or bootstrap, name the unresolved decision and a result
+that would change it. Repeated resampling of the same records does not acquire
+new population evidence. Use one suitable development estimator plus targeted
+checks of the likely failure mechanism; add repetitions only to answer a stated
+stability question. Stop redundant reassuring analyses. A cheap deterministic
+solution needs neither bootstrap ceremony nor a mandatory confirmation model.
+
+In the output, distinguish fitted-data loss, out-of-fold procedure estimates,
+adaptively reused development results, and independent frozen-policy outcomes.
+Name the unit, sample/event counts and what an interval actually estimates.
+Bootstrap quantiles of a selected policy's training loss are not next-period
+prediction intervals; resampling one out-of-fold loss vector does not capture
+all refitting/selection uncertainty. Zero bootstrap exceedances is not a zero
+probability of deployment failure. Without justified independent evidence, report
+a development estimate and unresolved future loss, not “next week will be X.”
+
 Stop when the next useful experiment is outside budget, improvements stall under
 the specified rule, constraints fail, or enough evidence supports freezing a
 finalist. Save the actual finalist bundle, not just its recipe. Refitting after

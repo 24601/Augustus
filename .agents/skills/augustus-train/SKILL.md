@@ -3,7 +3,7 @@ name: augustus-train
 description: "Builds and improves task-specific decision artifacts from application requirements and labeled records. Use for data assembly, primitive and base-model selection, fitting, export/reload, inference policy, or bounded data/model/program improvement. Includes rules and no-training outcomes; does not require a rung ladder or training a general Jev."
 license: MIT
 metadata:
-  version: 0.8.1
+  version: 0.8.2-dev
 ---
 
 # Augustus Train
@@ -106,6 +106,13 @@ of a universal checklist. Probability consumers need reliability evidence;
 option readers need permutation tests mapped back to option identities; rankers
 need query-level evaluation; classifiers need per-class and rare-case errors.
 All serving paths need resource/failure measurements relevant to their contract.
+
+Before writing numerical conclusions, bind each metric to its selected population,
+row count, policy and evidence role. Generate counts and prose numbers from the
+same receipt, not from memory or a different replay population. For binary raw-score
+policies, run this skill's `scripts/policy_receipt.py` as described in
+[fit and serve](references/fit-and-serve.md). It checks arithmetic and directional
+perturbations, not the truth of population declarations or future performance.
 
 Use [compute envelope](references/compute-envelope.md) before any expensive run.
 No new rental, paid model call, upload or production activation follows merely

@@ -156,6 +156,8 @@ not establish model quality or deployment benefit.
 
 Published release: **0.8.1**, a trainer-validation guidance patch. See the
 [release notes](docs/release-notes-v0.8.1.md) for changes and evidence limits.
+Current development version: **0.8.2-dev**, population-bound reporting and policy
+sensitivity checks; not a new published release or a claim of measured superiority.
 Install from the `v0.8.1` tag for the published revision; default-branch installs
 can receive later development work.
 

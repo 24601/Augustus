@@ -1,0 +1,65 @@
+{
+  "evidence": "descriptive",
+  "population": {
+    "name": "current-era export rows",
+    "selection": "era == current",
+    "n": 3,
+    "selected_rows_sha256": "8684dac8bf424053c292756f1d77455031b06dad5a19159324395ebfaca27e06"
+  },
+  "policy": {
+    "threshold": 0.5,
+    "shift": 0.125,
+    "cost_fp": 1,
+    "cost_fn": 8,
+    "comparison": "score >= threshold",
+    "clipping": "none"
+  },
+  "reports": [
+    {
+      "intervention": "baseline",
+      "n": 3,
+      "positive_actions": 1,
+      "action_rate": 0.3333333333333333,
+      "fp": 0,
+      "fn": 1,
+      "mean_loss": 2.6666666666666665
+    },
+    {
+      "intervention": "score_down",
+      "n": 3,
+      "positive_actions": 0,
+      "action_rate": 0.0,
+      "fp": 0,
+      "fn": 2,
+      "mean_loss": 5.333333333333333
+    },
+    {
+      "intervention": "score_up",
+      "n": 3,
+      "positive_actions": 3,
+      "action_rate": 1.0,
+      "fp": 1,
+      "fn": 0,
+      "mean_loss": 0.3333333333333333
+    },
+    {
+      "intervention": "threshold_down",
+      "n": 3,
+      "positive_actions": 3,
+      "action_rate": 1.0,
+      "fp": 1,
+      "fn": 0,
+      "mean_loss": 0.3333333333333333
+    },
+    {
+      "intervention": "threshold_up",
+      "n": 3,
+      "positive_actions": 0,
+      "action_rate": 0.0,
+      "fp": 0,
+      "fn": 2,
+      "mean_loss": 5.333333333333333
+    }
+  ],
+  "input_sha256": "9faa88390279b4777fd59412bb888672df3edfdf386fa57946a183188916280b"
+}

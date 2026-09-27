@@ -1,0 +1,8 @@
+{
+  "population": {"name": "current-era export rows", "selection": "era == current", "ids": ["b", "c", "d"]},
+  "rows": [{"id": "a", "score": 0.9, "y": 0},
+           {"id": "b", "score": 0.5, "y": 1},
+           {"id": "c", "score": 0.375, "y": 1},
+           {"id": "d", "score": 0.375, "y": 0}],
+  "threshold": 0.5, "shift": 0.125, "cost_fp": 1, "cost_fn": 8
+}
