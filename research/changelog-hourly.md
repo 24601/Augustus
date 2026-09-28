@@ -1,3 +1,16 @@
+## Hourly 0910 HIGH (notes.md §175)
+
+- Folded onto `main` `1c42a812da61d9a334ac7150630d2e4d248df931`. Weekend gap
+  after Friday hourly 1510 (§174). This fold is §175 only. Research-only.
+  Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls. Hub Archer weights were not requested.
+- OpenDecider's 0.796 cells and the Chinese bench stay separate instruments.
+  *Theirs.* GAYA's table is an in-domain distill against zero-shot Laya.
+  Not Harbor. Not a new family. No scoring row.
+- awesome-jev's 944 is a catalog count. A mock peira table is not an attack
+  rate. Routers and send switches stay in policy. Qwen names in this hour
+  are not Archer.
+
 ## Hourly 1510 HIGH (notes.md §174)
 
 - Folded onto `main` `dba551b64e70742dfe545625c36e2f5e638f97a9`. About

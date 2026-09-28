@@ -1,3 +1,17 @@
+## 2026-09-28 ~15:40 UTC / ~09:10 Boise - Hourly 0910 HIGH
+
+- User-requested fold onto `main` `1c42a812da61d9a334ac7150630d2e4d248df931`.
+  notes.md §175. Packet of 532 design items and 81 research-only rows
+  archived at `research/archive/hourly/2026-09-28T15/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub and Hugging Face reads on 2026-09-28T15:40Z.
+  README or card openings for the sources named in §175. One Hub model
+  returned 401. Eight description rewrites were not opened. No benches
+  rerun. No X calls. Third-party figures stay *theirs*.
+- A public table is not Harbor. A specialist fit is not a zero-shot win.
+  A catalog count is not a family choice. The act stays in policy.
+
 ## 2026-09-25 ~21:29 UTC / ~15:10 Boise - Hourly 1510 HIGH
 
 - User-requested fold onto `main` `dba551b64e70742dfe545625c36e2f5e638f97a9`.
